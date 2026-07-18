@@ -1,0 +1,1195 @@
+[
+  {
+    "word_id": 1,
+    "arabic": "الله",
+    "transliteration": "Al-lah",
+    "translation": "Allah",
+    "occurrences": 2550,
+    "type": "Noun",
+    "image": "001-Al-lah.jpg"
+  },
+  {
+    "word_id": 2,
+    "arabic": "الشَّيْطن",
+    "transliteration": "Ash-shaytaan",
+    "translation": "Satan",
+    "occurrences": 88,
+    "type": "Noun",
+    "root": "ش طن",
+    "image": "002-Ash-shaytaan.jpg"
+  },
+  {
+    "word_id": 3,
+    "arabic": "هُوَ",
+    "transliteration": "huwa",
+    "translation": "he",
+    "occurrences": 481,
+    "type": "Noun",
+    "image": "003-huwa.jpg"
+  },
+  {
+    "word_id": 4,
+    "arabic": "هُمْ",
+    "transliteration": "hum",
+    "translation": "they",
+    "occurrences": 444,
+    "type": "Noun",
+    "image": "004-hum.jpg"
+  },
+  {
+    "word_id": 5,
+    "arabic": "اَنْتَ",
+    "transliteration": "'anta",
+    "translation": "you",
+    "occurrences": 81,
+    "type": "Noun",
+    "image": "005-'anta.jpg"
+  },
+  {
+    "word_id": 6,
+    "arabic": "اَنَا",
+    "transliteration": "'anaa",
+    "translation": "I",
+    "occurrences": 68,
+    "type": "Noun",
+    "image": "006-'anaa.jpg"
+  },
+  {
+    "word_id": 7,
+    "arabic": "اَنْتُمْ",
+    "transliteration": "'antum",
+    "translation": "you all",
+    "occurrences": 135,
+    "type": "Noun",
+    "image": "007-'antum.jpg"
+  },
+  {
+    "word_id": 8,
+    "arabic": "نَحْنُ",
+    "transliteration": "nahnu",
+    "translation": "we",
+    "occurrences": 86,
+    "type": "Noun",
+    "image": "008-nahnu.jpg"
+  },
+  {
+    "word_id": 9,
+    "arabic": "مَنْ",
+    "transliteration": "man",
+    "translation": "who",
+    "occurrences": 831,
+    "type": "Noun",
+    "image": "009-man.jpg"
+  },
+  {
+    "word_id": 10,
+    "arabic": "هَلُ",
+    "transliteration": "hal",
+    "translation": "Is, Do, Are...?",
+    "occurrences": 93,
+    "type": "Particle",
+    "image": "010-hal.jpg"
+  },
+  {
+    "word_id": 11,
+    "arabic": "خَيْر",
+    "transliteration": "khayr",
+    "translation": "best",
+    "occurrences": 176,
+    "type": "Noun",
+    "root": "خير",
+    "image": "011-khayr.jpg"
+  },
+  {
+    "word_id": 12,
+    "arabic": "اسم",
+    "transliteration": "'ism",
+    "translation": "Name",
+    "occurrences": 39,
+    "type": "Noun",
+    "root": "س م و",
+    "image": "012-'ism.jpg"
+  },
+  {
+    "word_id": 13,
+    "arabic": "الرَّحْمن",
+    "transliteration": "'Ar-rahmaan",
+    "translation": "the Most Gracious",
+    "occurrences": 57,
+    "type": "Noun",
+    "root": "رح م",
+    "image": "013-'Ar-rahmaan.jpg"
+  },
+  {
+    "word_id": 14,
+    "arabic": "الرَّحِيم",
+    "transliteration": "Ar-raheem",
+    "translation": "the Most Merciful",
+    "occurrences": 116,
+    "type": "Noun",
+    "root": "رح م",
+    "image": "014-Ar-raheem.jpg"
+  },
+  {
+    "word_id": 15,
+    "arabic": "اَلْكَرِيم",
+    "transliteration": "Al-Kareem",
+    "translation": "Generous",
+    "occurrences": 27,
+    "type": "Noun",
+    "root": "كرم",
+    "image": "015-Al-Kareem.jpg"
+  },
+  {
+    "word_id": 16,
+    "arabic": "اَلْحَمْد",
+    "transliteration": "Al-hamd",
+    "translation": "All praises and thanks",
+    "occurrences": 149,
+    "type": "Noun",
+    "root": "ح م د",
+    "image": "016-Al-hamd.jpg"
+  },
+  {
+    "word_id": 17,
+    "arabic": "لله",
+    "transliteration": "lil-laahi",
+    "translation": "for Allah / to Allah",
+    "occurrences": 149,
+    "type": "Particle",
+    "image": "017-lil-laahi.jpg"
+  },
+  {
+    "word_id": 18,
+    "arabic": "الْعُلَمِينَ",
+    "transliteration": "Al-aalameena",
+    "translation": "the worlds",
+    "occurrences": 73,
+    "type": "Noun",
+    "root": "ع ل م",
+    "image": "018-Al-aalameena.jpg"
+  },
+  {
+    "word_id": 19,
+    "arabic": "مُسْلِم",
+    "transliteration": "Muslim",
+    "translation": "Muslim",
+    "occurrences": 42,
+    "type": "Noun",
+    "root": "س ل م",
+    "image": "019-Muslim.jpg"
+  },
+  {
+    "word_id": 20,
+    "arabic": "مُؤْمِن",
+    "transliteration": "mu'min",
+    "translation": "believer",
+    "occurrences": 230,
+    "type": "Noun",
+    "root": "أمن",
+    "image": "020-mu'min.jpg"
+  },
+  {
+    "word_id": 21,
+    "arabic": "مُشْرِك",
+    "transliteration": "mushrik",
+    "translation": "polytheist",
+    "occurrences": 49,
+    "type": "Noun",
+    "root": "شرك",
+    "image": "021-mushrik.jpg"
+  },
+  {
+    "word_id": 22,
+    "arabic": "كَافِر",
+    "transliteration": "kaafir",
+    "translation": "disbeliever",
+    "occurrences": 134,
+    "type": "Noun",
+    "root": "ك ف ر",
+    "image": "022-kaafir.jpg"
+  },
+  {
+    "word_id": 23,
+    "arabic": "صَالِح",
+    "transliteration": "şaalih",
+    "translation": "a righteous person",
+    "occurrences": 136,
+    "type": "Noun",
+    "root": "ص ل ح",
+    "image": "023-saalih.jpg"
+  },
+  {
+    "word_id": 24,
+    "arabic": "يوم",
+    "transliteration": "yawm",
+    "translation": "day",
+    "occurrences": 405,
+    "type": "Noun",
+    "root": "يَوْم",
+    "image": "024-yawm.jpg"
+  },
+  {
+    "word_id": 25,
+    "arabic": "اَلدِّين",
+    "transliteration": "'Ad-deen",
+    "translation": "the Judgment",
+    "occurrences": 92,
+    "type": "Noun",
+    "root": "دين",
+    "image": "025-'Ad-deen.jpg"
+  },
+  {
+    "word_id": 26,
+    "arabic": "إِيَّاكَ",
+    "transliteration": "'iyyaaka",
+    "translation": "You Alone",
+    "occurrences": 24,
+    "type": "Noun",
+    "image": "026-'iyyaaka.jpg"
+  },
+  {
+    "word_id": 27,
+    "arabic": "رب",
+    "transliteration": "Rabb",
+    "translation": "Lord",
+    "occurrences": 971,
+    "type": "Noun",
+    "root": "رب ب",
+    "image": "027-Rabb.jpg"
+  },
+  {
+    "word_id": 28,
+    "arabic": "مَا",
+    "transliteration": "maa",
+    "translation": "that which",
+    "occurrences": 2154,
+    "type": "Particle",
+    "image": "028-maa.jpg"
+  },
+  {
+    "word_id": 29,
+    "arabic": "الصِّرَاط",
+    "transliteration": "'Aş-şiraat",
+    "translation": "the path",
+    "occurrences": 45,
+    "type": "Noun",
+    "root": "ص رط",
+    "image": "029-'As-siraat.jpg"
+  },
+  {
+    "word_id": 30,
+    "arabic": "الْمُسْتَقِيمَ",
+    "transliteration": "'Al-mustaqeem",
+    "translation": "the straight",
+    "occurrences": 37,
+    "type": "Noun",
+    "root": "قوم و",
+    "image": "030-'Al-mustaqeem.jpg"
+  },
+  {
+    "word_id": 31,
+    "arabic": "الَّذِينَ",
+    "transliteration": "Al-lazeena",
+    "translation": "of those",
+    "occurrences": 1080,
+    "type": "Noun",
+    "image": "031-Al-lazeena.jpg"
+  },
+  {
+    "word_id": 32,
+    "arabic": "غَيْر",
+    "transliteration": "ghayr",
+    "translation": "not (of)",
+    "occurrences": 147,
+    "type": "Noun",
+    "root": "غ ي ر",
+    "image": "032-ghayr.jpg"
+  },
+  {
+    "word_id": 33,
+    "arabic": "لا",
+    "transliteration": "laa",
+    "translation": "not",
+    "occurrences": 1687,
+    "type": "Particle",
+    "image": "033-laa.jpg"
+  },
+  {
+    "word_id": 34,
+    "arabic": "الضَّالِّينَ",
+    "transliteration": "Ad-daalleena",
+    "translation": "those who go astray",
+    "occurrences": 14,
+    "type": "Noun",
+    "root": "ض ل ل",
+    "image": "034-Ad-daalleena.jpg"
+  },
+  {
+    "word_id": 35,
+    "arabic": "هِيَ",
+    "transliteration": "hiya",
+    "translation": "It; she",
+    "occurrences": 64,
+    "type": "Noun",
+    "image": "035-hiya.jpg"
+  },
+  {
+    "word_id": 36,
+    "arabic": "كِتَاب",
+    "transliteration": "kitaab",
+    "translation": "a book",
+    "occurrences": 261,
+    "type": "Noun",
+    "root": "ك ت ب",
+    "image": "036-kitaab.jpg"
+  },
+  {
+    "word_id": 37,
+    "arabic": "اَنْزَلْنَا",
+    "transliteration": "anzalna",
+    "translation": "We revealed",
+    "occurrences": 55,
+    "type": "Verb",
+    "root": "نزل",
+    "image": "037-anzalna.jpg"
+  },
+  {
+    "word_id": 38,
+    "arabic": "اية",
+    "transliteration": "aayat",
+    "translation": "sign/verse",
+    "occurrences": 382,
+    "type": "Noun",
+    "image": "038-aayat.jpg"
+  },
+  {
+    "word_id": 39,
+    "arabic": "الْاَرْضِ",
+    "transliteration": "'Al-'ard",
+    "translation": "the earth",
+    "occurrences": 461,
+    "type": "Noun",
+    "root": "أرض",
+    "image": "039-'Al-'ard.jpg"
+  },
+  {
+    "word_id": 40,
+    "arabic": "السَّمَاءِ",
+    "transliteration": "As-samaa'",
+    "translation": "the heaven",
+    "occurrences": 310,
+    "type": "Noun",
+    "root": "س م و",
+    "image": "040-As-samaa'.jpg"
+  },
+  {
+    "word_id": 41,
+    "arabic": "اُولُوا",
+    "transliteration": "'uloo",
+    "translation": "those of..",
+    "occurrences": 43,
+    "type": "Noun",
+    "image": "041-'uloo.jpg"
+  },
+  {
+    "word_id": 42,
+    "arabic": "لَوْ",
+    "transliteration": "Law",
+    "translation": "if",
+    "occurrences": 201,
+    "type": "Particle",
+    "image": "042-Law.jpg"
+  },
+  {
+    "word_id": 43,
+    "arabic": "ل",
+    "transliteration": "li",
+    "translation": "for",
+    "occurrences": 1361,
+    "type": "Particle",
+    "image": "043-li.jpg"
+  },
+  {
+    "word_id": 44,
+    "arabic": "مِنْ",
+    "transliteration": "min",
+    "translation": "from",
+    "occurrences": 3215,
+    "type": "Particle",
+    "image": "044-min.jpg"
+  },
+  {
+    "word_id": 45,
+    "arabic": "عَنْ",
+    "transliteration": "'an",
+    "translation": "with",
+    "occurrences": 416,
+    "type": "Particle",
+    "image": "045-'an.jpg"
+  },
+  {
+    "word_id": 46,
+    "arabic": "لَقَدْ",
+    "transliteration": "laqad",
+    "translation": "certainly",
+    "occurrences": 406,
+    "type": "Particle",
+    "image": "046-laqad.jpg"
+  },
+  {
+    "word_id": 47,
+    "arabic": "اَلْقُرْان",
+    "transliteration": "Al-Qur'aan",
+    "translation": "the Qur'an",
+    "occurrences": 70,
+    "type": "Noun",
+    "root": "قرأ",
+    "image": "047-Al-Qur'aan.jpg"
+  },
+  {
+    "word_id": 48,
+    "arabic": "اِنْ",
+    "transliteration": "'in",
+    "translation": "if",
+    "occurrences": 691,
+    "type": "Particle",
+    "image": "048-'in.jpg"
+  },
+  {
+    "word_id": 49,
+    "arabic": "شَاءَ",
+    "transliteration": "shaa'a",
+    "translation": "wills",
+    "occurrences": 56,
+    "type": "Verb",
+    "root": "شيء",
+    "image": "049-shaa'a.jpg"
+  },
+  {
+    "word_id": 50,
+    "arabic": "اِنْ",
+    "transliteration": "'inna",
+    "translation": "indeed",
+    "occurrences": 1534,
+    "type": "Particle",
+    "image": "050-'inna.jpg"
+  },
+  {
+    "word_id": 51,
+    "arabic": "اِنَّمَا",
+    "transliteration": "'innamaa",
+    "translation": "only",
+    "occurrences": 145,
+    "type": "Particle",
+    "image": "051-'innamaa.jpg"
+  },
+  {
+    "word_id": 52,
+    "arabic": "عَمَل",
+    "transliteration": "'amal",
+    "translation": "deed",
+    "occurrences": 41,
+    "type": "Noun",
+    "root": "ع م ل",
+    "image": "052-'amal.jpg"
+  },
+  {
+    "word_id": 53,
+    "arabic": "ب",
+    "transliteration": "bi",
+    "translation": "in",
+    "occurrences": 510,
+    "type": "Particle",
+    "image": "053-bi.jpg"
+  },
+  {
+    "word_id": 54,
+    "arabic": "فِى",
+    "transliteration": "fee",
+    "translation": "in/into",
+    "occurrences": 1684,
+    "type": "Particle",
+    "image": "054-fee.jpg"
+  },
+  {
+    "word_id": 55,
+    "arabic": "اَلسَّبِيل",
+    "transliteration": "As-sabeel",
+    "translation": "the way",
+    "occurrences": 176,
+    "type": "Noun",
+    "image": "055-As-sabeel.jpg"
+  },
+  {
+    "word_id": 56,
+    "arabic": "عَلى",
+    "transliteration": "'alaa",
+    "translation": "on; upon",
+    "occurrences": 1423,
+    "type": "Particle",
+    "image": "056-'alaa.jpg"
+  },
+  {
+    "word_id": 57,
+    "arabic": "اَلَّذِى",
+    "transliteration": "'allazee",
+    "translation": "(the one) who",
+    "occurrences": 304,
+    "type": "Noun",
+    "image": "057-'allazee.jpg"
+  },
+  {
+    "word_id": 58,
+    "arabic": "أَيُّكُمْ",
+    "transliteration": "'ayyun",
+    "translation": "which",
+    "occurrences": 59,
+    "type": "Noun",
+    "image": "058-'ayyun.jpg"
+  },
+  {
+    "word_id": 59,
+    "arabic": "اَحْسَن",
+    "transliteration": "'ahsan",
+    "translation": "best",
+    "occurrences": 36,
+    "type": "Noun",
+    "root": "ح س ن",
+    "image": "059-'ahsan.jpg"
+  },
+  {
+    "word_id": 60,
+    "arabic": "إلى",
+    "transliteration": "'ilaa",
+    "translation": "to",
+    "occurrences": 736,
+    "type": "Particle",
+    "image": "060-'ilaa.jpg"
+  },
+  {
+    "word_id": 61,
+    "arabic": "مَعَ",
+    "transliteration": "ma'a",
+    "translation": "with",
+    "occurrences": 163,
+    "type": "Particle",
+    "image": "061-ma'a.jpg"
+  },
+  {
+    "word_id": 62,
+    "arabic": "عِنْدَ",
+    "transliteration": "'inda",
+    "translation": "with",
+    "occurrences": 197,
+    "type": "Particle",
+    "image": "062-'inda.jpg"
+  },
+  {
+    "word_id": 63,
+    "arabic": "الْإِنْسَان",
+    "transliteration": "Al-'insaan",
+    "translation": "the mankind",
+    "occurrences": 65,
+    "type": "Noun",
+    "image": "063-Al-'insaan.jpg"
+  },
+  {
+    "word_id": 64,
+    "arabic": "الا",
+    "transliteration": "'illaa",
+    "translation": "except",
+    "occurrences": 664,
+    "type": "Particle",
+    "image": "064-'illaa.jpg"
+  },
+  {
+    "word_id": 65,
+    "arabic": "آمَنُوا",
+    "transliteration": "'aamanoo",
+    "translation": "they believed",
+    "occurrences": 258,
+    "type": "Verb",
+    "root": "أمن",
+    "image": "065-'aamanoo.jpg"
+  },
+  {
+    "word_id": 66,
+    "arabic": "الْحَقِّ",
+    "transliteration": "Al-haqq",
+    "translation": "the truth",
+    "occurrences": 247,
+    "type": "Noun",
+    "root": "ح ق ق",
+    "image": "066-Al-haqq.jpg"
+  },
+  {
+    "word_id": 67,
+    "arabic": "اَوْ",
+    "transliteration": "aw",
+    "translation": "or",
+    "occurrences": 280,
+    "type": "Particle",
+    "image": "067-aw.jpg"
+  },
+  {
+    "word_id": 68,
+    "arabic": "هُذَا",
+    "transliteration": "haazaa",
+    "translation": "this",
+    "occurrences": 225,
+    "type": "Noun",
+    "image": "068-haazaa.jpg"
+  },
+  {
+    "word_id": 69,
+    "arabic": "هذه",
+    "transliteration": "haazihee",
+    "translation": "this",
+    "occurrences": 47,
+    "type": "Noun",
+    "image": "069-haazihee.jpg"
+  },
+  {
+    "word_id": 70,
+    "arabic": "ذَلِكَ",
+    "transliteration": "zaalika",
+    "translation": "that",
+    "occurrences": 478,
+    "type": "Noun",
+    "image": "070-zaalika.jpg"
+  },
+  {
+    "word_id": 71,
+    "arabic": "تِلُكَ",
+    "transliteration": "tilka",
+    "translation": "that/these",
+    "occurrences": 43,
+    "type": "Noun",
+    "image": "071-tilka.jpg"
+  },
+  {
+    "word_id": 72,
+    "arabic": "هؤُلَاءِ",
+    "transliteration": "haa'ulaa'i",
+    "translation": "these",
+    "occurrences": 46,
+    "type": "Noun",
+    "image": "072-haa'ulaa'i.jpg"
+  },
+  {
+    "word_id": 73,
+    "arabic": "أُولَبِكَ",
+    "transliteration": "'ulaa'ika",
+    "translation": "those",
+    "occurrences": 204,
+    "type": "Noun",
+    "image": "073-'ulaa'ika.jpg"
+  },
+  {
+    "word_id": 74,
+    "arabic": "إِذْ",
+    "transliteration": "'iz",
+    "translation": "when",
+    "occurrences": 239,
+    "type": "Particle",
+    "image": "074-'iz.jpg"
+  },
+  {
+    "word_id": 75,
+    "arabic": "إذا",
+    "transliteration": "izaa",
+    "translation": "when",
+    "occurrences": 423,
+    "type": "Particle",
+    "image": "075-izaa.jpg"
+  },
+  {
+    "word_id": 76,
+    "arabic": "جَاءَ",
+    "transliteration": "jaa'a",
+    "translation": "he came",
+    "occurrences": 171,
+    "type": "Verb",
+    "root": "ج يء",
+    "image": "076-jaa'a.jpg"
+  },
+  {
+    "word_id": 77,
+    "arabic": "اَلنَّاس",
+    "transliteration": "'annaas",
+    "translation": "the people",
+    "occurrences": 241,
+    "type": "Noun",
+    "image": "077-'annaas.jpg"
+  },
+  {
+    "word_id": 78,
+    "arabic": "فَعَلَ",
+    "transliteration": "fa'ala",
+    "translation": "he did",
+    "occurrences": 100,
+    "type": "Verb",
+    "root": "ف ع ل",
+    "image": "078-fa'ala.jpg"
+  },
+  {
+    "word_id": 79,
+    "arabic": "جَعَلَ",
+    "transliteration": "ja'ala",
+    "translation": "he made/he set",
+    "occurrences": 344,
+    "type": "Verb",
+    "root": "ج ع ل",
+    "image": "079-ja'ala.jpg"
+  },
+  {
+    "word_id": 80,
+    "arabic": "فَتَحَ",
+    "transliteration": "fataha",
+    "translation": "he opened/he revealed",
+    "occurrences": 25,
+    "type": "Verb",
+    "root": "ف ت ح",
+    "image": "080-fataha.jpg"
+  },
+  {
+    "word_id": 81,
+    "arabic": "قُلْ",
+    "transliteration": "qul",
+    "translation": "say",
+    "occurrences": 332,
+    "type": "Verb",
+    "root": "قول",
+    "image": "081-qul.jpg"
+  },
+  {
+    "word_id": 82,
+    "arabic": "اَحَد",
+    "transliteration": "'ahad",
+    "translation": "the One",
+    "occurrences": 74,
+    "type": "Noun",
+    "image": "082-'ahad.jpg"
+  },
+  {
+    "word_id": 83,
+    "arabic": "لَمْ",
+    "transliteration": "lam",
+    "translation": "not",
+    "occurrences": 384,
+    "type": "Particle",
+    "image": "083-lam.jpg"
+  },
+  {
+    "word_id": 84,
+    "arabic": "لَنْ",
+    "transliteration": "lan",
+    "translation": "never",
+    "occurrences": 106,
+    "type": "Particle",
+    "image": "084-lan.jpg"
+  },
+  {
+    "word_id": 85,
+    "arabic": "نَصْرٍ",
+    "transliteration": "naşr",
+    "translation": "help",
+    "occurrences": 80,
+    "type": "Noun",
+    "root": "ن ص ر",
+    "image": "085-nasr.jpg"
+  },
+  {
+    "word_id": 86,
+    "arabic": "خَلَقَ",
+    "transliteration": "khalaqa",
+    "translation": "He created",
+    "occurrences": 237,
+    "type": "Verb",
+    "root": "خ ل ق",
+    "image": "086-khalaqa.jpg"
+  },
+  {
+    "word_id": 87,
+    "arabic": "ذَكَرَ",
+    "transliteration": "zakara",
+    "translation": "he remembered",
+    "occurrences": 151,
+    "type": "Verb",
+    "root": "ذكر",
+    "image": "087-zakara.jpg"
+  },
+  {
+    "word_id": 88,
+    "arabic": "عَبَدَ",
+    "transliteration": "'abada",
+    "translation": "he worshipped",
+    "occurrences": 142,
+    "type": "Verb",
+    "root": "ع ب د",
+    "image": "088-'abada.jpg"
+  },
+  {
+    "word_id": 89,
+    "arabic": "شَيْء",
+    "transliteration": "shay',",
+    "translation": "thing",
+    "occurrences": 283,
+    "type": "Noun",
+    "root": "شيء",
+    "image": "089-shay'.jpg"
+  },
+  {
+    "word_id": 90,
+    "arabic": "ضَرَبَ",
+    "transliteration": "daraba",
+    "translation": "he hit/he stroke",
+    "occurrences": 50,
+    "type": "Verb",
+    "root": "ضرب",
+    "image": "090-daraba.jpg"
+  },
+  {
+    "word_id": 91,
+    "arabic": "سَمِعَ",
+    "transliteration": "sami'a",
+    "translation": "he listened",
+    "occurrences": 98,
+    "type": "Verb",
+    "root": "س م ع",
+    "image": "091-sami'a.jpg"
+  },
+  {
+    "word_id": 92,
+    "arabic": "عَلِمَ",
+    "transliteration": "'alima",
+    "translation": "he knew",
+    "occurrences": 562,
+    "type": "Verb",
+    "root": "ع ل م",
+    "image": "092-'alima.jpg"
+  },
+  {
+    "word_id": 93,
+    "arabic": "عَمِلَ",
+    "transliteration": "'amila",
+    "translation": "he did",
+    "occurrences": 318,
+    "type": "Verb",
+    "root": "ع م ل",
+    "image": "093-'amila.jpg"
+  },
+  {
+    "word_id": 94,
+    "arabic": "حديث",
+    "transliteration": "hadee",
+    "translation": "statement; story",
+    "occurrences": 23,
+    "type": "Noun",
+    "root": "ح د ث",
+    "image": "094-hadee.jpg"
+  },
+  {
+    "word_id": 95,
+    "arabic": "اله",
+    "transliteration": "ilaah",
+    "translation": "the God",
+    "occurrences": 145,
+    "type": "Noun",
+    "root": "أ ل ه",
+    "image": "095-ilaah.jpg"
+  },
+  {
+    "word_id": 96,
+    "arabic": "صدر",
+    "transliteration": "sadr",
+    "translation": "chest",
+    "occurrences": 44,
+    "type": "Noun",
+    "root": "ص د ر",
+    "image": "096-sadr.jpg"
+  },
+  {
+    "word_id": 97,
+    "arabic": "ملك",
+    "transliteration": "malak",
+    "translation": "angel",
+    "occurrences": 88,
+    "type": "Noun",
+    "root": "م ل ك",
+    "image": "097-malak.jpg"
+  },
+  {
+    "word_id": 98,
+    "arabic": "جنة",
+    "transliteration": "jinnah",
+    "translation": "Jinn",
+    "occurrences": 32,
+    "type": "Noun",
+    "root": "ج ن ن",
+    "image": "098-jinnah.jpg"
+  },
+  {
+    "word_id": 99,
+    "arabic": "يا",
+    "transliteration": "yaa",
+    "translation": "O; oh",
+    "occurrences": 361,
+    "type": "Particle",
+    "image": "099-yaa.jpg"
+  },
+  {
+    "word_id": 100,
+    "arabic": "قوم",
+    "transliteration": "Qawm",
+    "translation": "people",
+    "occurrences": 383,
+    "type": "Noun",
+    "root": "ق و م",
+    "image": "100-Qawm.jpg"
+  },
+  {
+    "word_id": 101,
+    "arabic": "ايها",
+    "transliteration": "ayyuhaa",
+    "translation": "O; oh",
+    "occurrences": 153,
+    "type": "Particle",
+    "image": "101-ayyuhaa.jpg"
+  },
+  {
+    "word_id": 102,
+    "arabic": "ان",
+    "transliteration": "an",
+    "translation": "that",
+    "occurrences": 571,
+    "type": "Particle",
+    "image": "102-an.jpg"
+  },
+  {
+    "word_id": 103,
+    "arabic": "ان",
+    "transliteration": "anna",
+    "translation": "that",
+    "occurrences": 359,
+    "type": "Particle",
+    "image": "103-anna.jpg"
+  },
+  {
+    "word_id": 104,
+    "arabic": "محمد",
+    "transliteration": "Muhammad",
+    "translation": "Muhammad",
+    "occurrences": 4,
+    "type": "Noun",
+    "root": "ح م د",
+    "image": "104-Muhammad.jpg"
+  },
+  {
+    "word_id": 105,
+    "arabic": "رسول",
+    "transliteration": "Rasool",
+    "translation": "Messenger",
+    "occurrences": 332,
+    "type": "Noun",
+    "root": "ر س ل",
+    "image": "105-Rasool.jpg"
+  },
+  {
+    "word_id": 106,
+    "arabic": "الصلوة",
+    "transliteration": "As-salat",
+    "translation": "the prayer",
+    "occurrences": 83,
+    "type": "Noun",
+    "image": "106-As-salat.jpg"
+  },
+  {
+    "word_id": 107,
+    "arabic": "شريك",
+    "transliteration": "shareek",
+    "translation": "partner",
+    "occurrences": 40,
+    "type": "Noun",
+    "root": "ش ر ك",
+    "image": "107-shareek.jpg"
+  },
+  {
+    "word_id": 108,
+    "arabic": "ماذا",
+    "transliteration": "maa'aa",
+    "translation": "what",
+    "occurrences": 27,
+    "type": "Particle",
+    "image": "108-maa'aa.jpg"
+  },
+  {
+    "word_id": 109,
+    "arabic": "سبحن",
+    "transliteration": "subhaana",
+    "translation": "Glory",
+    "occurrences": 41,
+    "type": "Noun",
+    "root": "س ب ح",
+    "image": "109-subhaana.jpg"
+  },
+  {
+    "word_id": 110,
+    "arabic": "العظيم",
+    "transliteration": "Al-azeem",
+    "translation": "The Great",
+    "occurrences": 107,
+    "type": "Noun",
+    "root": "ع ظ م",
+    "image": "110-Al-azeem.jpg"
+  },
+  {
+    "word_id": 111,
+    "arabic": "طيبات",
+    "transliteration": "tayyibaat",
+    "translation": "good things",
+    "occurrences": 46,
+    "type": "Noun",
+    "root": "ط ي ب",
+    "image": "111-tayyibaat.jpg"
+  },
+  {
+    "word_id": 112,
+    "arabic": "سلام",
+    "transliteration": "salaam",
+    "translation": "Peace",
+    "occurrences": 42,
+    "type": "Noun",
+    "root": "س ل م",
+    "image": "112-salaam.jpg"
+  },
+  {
+    "word_id": 113,
+    "arabic": "النبى",
+    "transliteration": "an-nabi",
+    "translation": "The Prophet",
+    "occurrences": 75,
+    "type": "Noun",
+    "root": "ن ب أ",
+    "image": "113-an-nabi.jpg"
+  },
+  {
+    "word_id": 114,
+    "arabic": "رحمة",
+    "transliteration": "rahmah",
+    "translation": "(the) Mercy",
+    "occurrences": 114,
+    "type": "Noun",
+    "root": "ر ح م",
+    "image": "114-rahmah.jpg"
+  },
+  {
+    "word_id": 115,
+    "arabic": "عباد",
+    "transliteration": "ibaad",
+    "translation": "slaves, servants",
+    "occurrences": 125,
+    "type": "Noun",
+    "root": "ع ب د",
+    "image": "115-ibaad.jpg"
+  },
+  {
+    "word_id": 116,
+    "arabic": "سوف",
+    "transliteration": "sawfa",
+    "translation": "soon",
+    "occurrences": 42,
+    "type": "Particle",
+    "image": "116-sawfa.jpg"
+  },
+  {
+    "word_id": 117,
+    "arabic": "ابراهيم",
+    "transliteration": "ibraaheem",
+    "translation": "Ibrahim",
+    "occurrences": 69,
+    "type": "Noun",
+    "image": "117-ibraaheem.jpg"
+  },
+  {
+    "word_id": 118,
+    "arabic": "نفس",
+    "transliteration": "nafs",
+    "translation": "soul",
+    "occurrences": 293,
+    "type": "Noun",
+    "root": "ن ف س",
+    "image": "118-nafs.jpg"
+  },
+  {
+    "word_id": 119,
+    "arabic": "كثير",
+    "transliteration": "katheer",
+    "translation": "much",
+    "occurrences": 63,
+    "type": "Noun",
+    "root": "ك ث ر",
+    "image": "119-katheer.jpg"
+  },
+  {
+    "word_id": 120,
+    "arabic": "الذنوب",
+    "transliteration": "Az-Zunoob",
+    "translation": "the sins",
+    "occurrences": 39,
+    "type": "Noun",
+    "root": "ذ ن ب",
+    "image": "120-Az-Zunoob.jpg"
+  },
+  {
+    "word_id": 121,
+    "arabic": "غفور",
+    "transliteration": "Ghafoor",
+    "translation": "Oft-Forgiving",
+    "occurrences": 91,
+    "type": "Noun",
+    "root": "غ ف ر",
+    "image": "121-Ghafoor.jpg"
+  },
+  {
+    "word_id": 122,
+    "arabic": "الدنيا",
+    "transliteration": "Ad-dunya",
+    "translation": "the world",
+    "occurrences": 115,
+    "type": "Noun",
+    "root": "د ن و",
+    "image": "122-Ad-dunya.jpg"
+  },
+  {
+    "word_id": 123,
+    "arabic": "الاخرة",
+    "transliteration": "Al-aakhirat",
+    "translation": "the Hereafter",
+    "occurrences": 115,
+    "type": "Noun",
+    "root": "أ خ ر",
+    "image": "123-Al-aakhirat.jpg"
+  },
+  {
+    "word_id": 124,
+    "arabic": "عذاب",
+    "transliteration": "azaab",
+    "translation": "punishment",
+    "occurrences": 322,
+    "type": "Noun",
+    "root": "ع ذ ب",
+    "image": "124-azaab.jpg"
+  },
+  {
+    "word_id": 125,
+    "arabic": "النار",
+    "transliteration": "An-naar",
+    "translation": "the Fire",
+    "occurrences": 145,
+    "type": "Noun",
+    "root": "ن و ر",
+    "image": "125-An-naar.jpg"
+  }
+]
