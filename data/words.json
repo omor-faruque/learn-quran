@@ -6,7 +6,12 @@
     "translation": "Allah",
     "occurrences": 2550,
     "type": "Noun",
-    "image": "001-Al-lah.jpg"
+    "image": "001-Al-lah.jpg",
+    "example": {
+      "arabic": "اللهُ كَرِيم",
+      "pronunciation": "Allahu kareem",
+      "meaning": "Allah is generous"
+    }
   },
   {
     "word_id": 2,
@@ -16,7 +21,12 @@
     "occurrences": 88,
     "type": "Noun",
     "root": "ش طن",
-    "image": "002-Ash-shaytaan.jpg"
+    "image": "002-Ash-shaytaan.jpg",
+    "example": {
+      "arabic": "أَعُوذُ بِاللهِ مِنَ الشَّيْطَان",
+      "pronunciation": "A'oodhu billahi minash-shaytaan",
+      "meaning": "I seek refuge in Allah from Satan"
+    }
   },
   {
     "word_id": 3,
@@ -25,7 +35,12 @@
     "translation": "he",
     "occurrences": 481,
     "type": "Noun",
-    "image": "003-huwa.jpg"
+    "image": "003-huwa.jpg",
+    "example": {
+      "arabic": "هُوَ هُنَا",
+      "pronunciation": "Huwa hunaa",
+      "meaning": "He is here"
+    }
   },
   {
     "word_id": 4,
@@ -34,7 +49,12 @@
     "translation": "they",
     "occurrences": 444,
     "type": "Noun",
-    "image": "004-hum.jpg"
+    "image": "004-hum.jpg",
+    "example": {
+      "arabic": "هُمْ هُنَا",
+      "pronunciation": "Hum hunaa",
+      "meaning": "They are here"
+    }
   },
   {
     "word_id": 5,
@@ -43,7 +63,12 @@
     "translation": "you",
     "occurrences": 81,
     "type": "Noun",
-    "image": "005-'anta.jpg"
+    "image": "005-'anta.jpg",
+    "example": {
+      "arabic": "أَنْتَ بِخَيْر",
+      "pronunciation": "Anta bikhayr",
+      "meaning": "You are okay"
+    }
   },
   {
     "word_id": 6,
@@ -52,7 +77,12 @@
     "translation": "I",
     "occurrences": 68,
     "type": "Noun",
-    "image": "006-'anaa.jpg"
+    "image": "006-'anaa.jpg",
+    "example": {
+      "arabic": "أَنَا بِخَيْر",
+      "pronunciation": "Anaa bikhayr",
+      "meaning": "I am okay"
+    }
   },
   {
     "word_id": 7,
@@ -61,7 +91,12 @@
     "translation": "you all",
     "occurrences": 135,
     "type": "Noun",
-    "image": "007-'antum.jpg"
+    "image": "007-'antum.jpg",
+    "example": {
+      "arabic": "أَنْتُمْ بِخَيْر",
+      "pronunciation": "Antum bikhayr",
+      "meaning": "You all are okay"
+    }
   },
   {
     "word_id": 8,
@@ -70,7 +105,12 @@
     "translation": "we",
     "occurrences": 86,
     "type": "Noun",
-    "image": "008-nahnu.jpg"
+    "image": "008-nahnu.jpg",
+    "example": {
+      "arabic": "نَحْنُ هُنَا",
+      "pronunciation": "Nahnu hunaa",
+      "meaning": "We are here"
+    }
   },
   {
     "word_id": 9,
@@ -79,7 +119,12 @@
     "translation": "who",
     "occurrences": 831,
     "type": "Noun",
-    "image": "009-man.jpg"
+    "image": "009-man.jpg",
+    "example": {
+      "arabic": "مَنْ أَنْتَ؟",
+      "pronunciation": "Man anta?",
+      "meaning": "Who are you?"
+    }
   },
   {
     "word_id": 10,
@@ -88,7 +133,12 @@
     "translation": "Is, Do, Are...?",
     "occurrences": 93,
     "type": "Particle",
-    "image": "010-hal.jpg"
+    "image": "010-hal.jpg",
+    "example": {
+      "arabic": "هَلْ أَنْتَ بِخَيْر؟",
+      "pronunciation": "Hal anta bikhayr?",
+      "meaning": "Are you okay?"
+    }
   },
   {
     "word_id": 11,
@@ -98,7 +148,12 @@
     "occurrences": 176,
     "type": "Noun",
     "root": "خير",
-    "image": "011-khayr.jpg"
+    "image": "011-khayr.jpg",
+    "example": {
+      "arabic": "هُوَ خَيْرٌ لَكَ",
+      "pronunciation": "Huwa khayrun laka",
+      "meaning": "He/It is best for you"
+    }
   },
   {
     "word_id": 12,
@@ -108,7 +163,12 @@
     "occurrences": 39,
     "type": "Noun",
     "root": "س م و",
-    "image": "012-'ism.jpg"
+    "image": "012-'ism.jpg",
+    "example": {
+      "arabic": "مَا اسْمُكَ؟",
+      "pronunciation": "Mas-muka?",
+      "meaning": "What is your name?"
+    }
   },
   {
     "word_id": 13,
@@ -118,7 +178,12 @@
     "occurrences": 57,
     "type": "Noun",
     "root": "رح م",
-    "image": "013-'Ar-rahmaan.jpg"
+    "image": "013-'Ar-rahmaan.jpg",
+    "example": {
+      "arabic": "الرَّحْمَنُ الرَّحِيم",
+      "pronunciation": "Ar-rahmaanir-raheem",
+      "meaning": "The Most Gracious, the Most Merciful"
+    }
   },
   {
     "word_id": 14,
@@ -128,7 +193,12 @@
     "occurrences": 116,
     "type": "Noun",
     "root": "رح م",
-    "image": "014-Ar-raheem.jpg"
+    "image": "014-Ar-raheem.jpg",
+    "example": {
+      "arabic": "اللهُ رَّحِيم",
+      "pronunciation": "Allahu raheem",
+      "meaning": "Allah is Most Merciful"
+    }
   },
   {
     "word_id": 15,
@@ -138,7 +208,12 @@
     "occurrences": 27,
     "type": "Noun",
     "root": "كرم",
-    "image": "015-Al-Kareem.jpg"
+    "image": "015-Al-Kareem.jpg",
+    "example": {
+      "arabic": "أَنْتَ كَرِيم",
+      "pronunciation": "Anta kareem",
+      "meaning": "You are generous"
+    }
   },
   {
     "word_id": 16,
@@ -148,7 +223,12 @@
     "occurrences": 149,
     "type": "Noun",
     "root": "ح م د",
-    "image": "016-Al-hamd.jpg"
+    "image": "016-Al-hamd.jpg",
+    "example": {
+      "arabic": "الْحَمْدُ لله",
+      "pronunciation": "Al-hamdu lillah",
+      "meaning": "All praise is for Allah"
+    }
   },
   {
     "word_id": 17,
@@ -157,7 +237,12 @@
     "translation": "for Allah / to Allah",
     "occurrences": 149,
     "type": "Particle",
-    "image": "017-lil-laahi.jpg"
+    "image": "017-lil-laahi.jpg",
+    "example": {
+      "arabic": "الشُّكْرُ لله",
+      "pronunciation": "Ash-shukru lillah",
+      "meaning": "Thanks be to Allah"
+    }
   },
   {
     "word_id": 18,
@@ -167,7 +252,12 @@
     "occurrences": 73,
     "type": "Noun",
     "root": "ع ل م",
-    "image": "018-Al-aalameena.jpg"
+    "image": "018-Al-aalameena.jpg",
+    "example": {
+      "arabic": "رَبِّ الْعَالَمِين",
+      "pronunciation": "Rabbil-'aalameen",
+      "meaning": "Lord of the worlds"
+    }
   },
   {
     "word_id": 19,
@@ -177,7 +267,12 @@
     "occurrences": 42,
     "type": "Noun",
     "root": "س ل م",
-    "image": "019-Muslim.jpg"
+    "image": "019-Muslim.jpg",
+    "example": {
+      "arabic": "أَنَا مُسْلِم",
+      "pronunciation": "Anaa muslim",
+      "meaning": "I am a Muslim"
+    }
   },
   {
     "word_id": 20,
@@ -187,7 +282,12 @@
     "occurrences": 230,
     "type": "Noun",
     "root": "أمن",
-    "image": "020-mu'min.jpg"
+    "image": "020-mu'min.jpg",
+    "example": {
+      "arabic": "هُوَ مُؤْمِن",
+      "pronunciation": "Huwa mu'min",
+      "meaning": "He is a believer"
+    }
   },
   {
     "word_id": 21,
@@ -197,7 +297,12 @@
     "occurrences": 49,
     "type": "Noun",
     "root": "شرك",
-    "image": "021-mushrik.jpg"
+    "image": "021-mushrik.jpg",
+    "example": {
+      "arabic": "لَا تَكُنْ مُشْرِكًا",
+      "pronunciation": "Laa takun mushrikan",
+      "meaning": "Do not be a polytheist"
+    }
   },
   {
     "word_id": 22,
@@ -207,7 +312,12 @@
     "occurrences": 134,
     "type": "Noun",
     "root": "ك ف ر",
-    "image": "022-kaafir.jpg"
+    "image": "022-kaafir.jpg",
+    "example": {
+      "arabic": "هُوَ كَافِر",
+      "pronunciation": "Huwa kaafir",
+      "meaning": "He is a disbeliever"
+    }
   },
   {
     "word_id": 23,
@@ -217,7 +327,12 @@
     "occurrences": 136,
     "type": "Noun",
     "root": "ص ل ح",
-    "image": "023-saalih.jpg"
+    "image": "023-saalih.jpg",
+    "example": {
+      "arabic": "رَجُلٌ صَالِح",
+      "pronunciation": "Rajulun saalih",
+      "meaning": "A righteous man"
+    }
   },
   {
     "word_id": 24,
@@ -227,7 +342,12 @@
     "occurrences": 405,
     "type": "Noun",
     "root": "يَوْم",
-    "image": "024-yawm.jpg"
+    "image": "024-yawm.jpg",
+    "example": {
+      "arabic": "هَذَا الْيَوْم",
+      "pronunciation": "Haadhal-yawm",
+      "meaning": "This day"
+    }
   },
   {
     "word_id": 25,
@@ -237,7 +357,12 @@
     "occurrences": 92,
     "type": "Noun",
     "root": "دين",
-    "image": "025-'Ad-deen.jpg"
+    "image": "025-'Ad-deen.jpg",
+    "example": {
+      "arabic": "يَوْمُ الدِّين",
+      "pronunciation": "Yawmud-deen",
+      "meaning": "The Day of Judgment"
+    }
   },
   {
     "word_id": 26,
@@ -246,7 +371,12 @@
     "translation": "You Alone",
     "occurrences": 24,
     "type": "Noun",
-    "image": "026-'iyyaaka.jpg"
+    "image": "026-'iyyaaka.jpg",
+    "example": {
+      "arabic": "إِيَّاكَ نَعْبُد",
+      "pronunciation": "Iyyaaka na'bud",
+      "meaning": "You alone we worship"
+    }
   },
   {
     "word_id": 27,
@@ -256,7 +386,12 @@
     "occurrences": 971,
     "type": "Noun",
     "root": "رب ب",
-    "image": "027-Rabb.jpg"
+    "image": "027-Rabb.jpg",
+    "example": {
+      "arabic": "اللهُ رَبِّي",
+      "pronunciation": "Allahu rabbee",
+      "meaning": "Allah is my Lord"
+    }
   },
   {
     "word_id": 28,
@@ -265,7 +400,12 @@
     "translation": "that which",
     "occurrences": 2154,
     "type": "Particle",
-    "image": "028-maa.jpg"
+    "image": "028-maa.jpg",
+    "example": {
+      "arabic": "هَذَا مَا أُرِيد",
+      "pronunciation": "Haadha maa ureed",
+      "meaning": "This is that which I want"
+    }
   },
   {
     "word_id": 29,
@@ -275,7 +415,12 @@
     "occurrences": 45,
     "type": "Noun",
     "root": "ص رط",
-    "image": "029-'As-siraat.jpg"
+    "image": "029-'As-siraat.jpg",
+    "example": {
+      "arabic": "هَذَا الصِّرَاط",
+      "pronunciation": "Haadhas-siraat",
+      "meaning": "This path"
+    }
   },
   {
     "word_id": 30,
@@ -285,7 +430,12 @@
     "occurrences": 37,
     "type": "Noun",
     "root": "قوم و",
-    "image": "030-'Al-mustaqeem.jpg"
+    "image": "030-'Al-mustaqeem.jpg",
+    "example": {
+      "arabic": "الصِّرَاطَ الْمُسْتَقِيم",
+      "pronunciation": "As-siraatal-mustaqeem",
+      "meaning": "The straight path"
+    }
   },
   {
     "word_id": 31,
@@ -294,7 +444,12 @@
     "translation": "of those",
     "occurrences": 1080,
     "type": "Noun",
-    "image": "031-Al-lazeena.jpg"
+    "image": "031-Al-lazeena.jpg",
+    "example": {
+      "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+      "pronunciation": "Siraatal-lazeena an'amta 'alayhim",
+      "meaning": "The path of those You have blessed"
+    }
   },
   {
     "word_id": 32,
@@ -304,7 +459,12 @@
     "occurrences": 147,
     "type": "Noun",
     "root": "غ ي ر",
-    "image": "032-ghayr.jpg"
+    "image": "032-ghayr.jpg",
+    "example": {
+      "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ",
+      "pronunciation": "Ghayril-maghdoobi 'alayhim",
+      "meaning": "Not of those who earned anger"
+    }
   },
   {
     "word_id": 33,
@@ -313,7 +473,12 @@
     "translation": "not",
     "occurrences": 1687,
     "type": "Particle",
-    "image": "033-laa.jpg"
+    "image": "033-laa.jpg",
+    "example": {
+      "arabic": "لَا إِلَهَ إِلَّا الله",
+      "pronunciation": "Laa ilaha illallah",
+      "meaning": "There is no god but Allah"
+    }
   },
   {
     "word_id": 34,
@@ -323,7 +488,12 @@
     "occurrences": 14,
     "type": "Noun",
     "root": "ض ل ل",
-    "image": "034-Ad-daalleena.jpg"
+    "image": "034-Ad-daalleena.jpg",
+    "example": {
+      "arabic": "وَلَا الضَّالِّين",
+      "pronunciation": "Wa lad-daalleen",
+      "meaning": "Nor of those who go astray"
+    }
   },
   {
     "word_id": 35,
@@ -332,17 +502,27 @@
     "translation": "It; she",
     "occurrences": 64,
     "type": "Noun",
-    "image": "035-hiya.jpg"
+    "image": "035-hiya.jpg",
+    "example": {
+      "arabic": "هِيَ هُنَا",
+      "pronunciation": "Hiya hunaa",
+      "meaning": "She/It is here"
+    }
   },
   {
     "word_id": 36,
-    "arabic": "كِتَاب",
+    "arabic": "كِتاب",
     "transliteration": "kitaab",
     "translation": "a book",
     "occurrences": 261,
     "type": "Noun",
     "root": "ك ت ب",
-    "image": "036-kitaab.jpg"
+    "image": "036-kitaab.jpg",
+    "example": {
+      "arabic": "هَذَا كِتَاب",
+      "pronunciation": "Haadha kitaab",
+      "meaning": "This is a book"
+    }
   },
   {
     "word_id": 37,
@@ -352,7 +532,12 @@
     "occurrences": 55,
     "type": "Verb",
     "root": "نزل",
-    "image": "037-anzalna.jpg"
+    "image": "037-anzalna.jpg",
+    "example": {
+      "arabic": "كِتَابٌ أَنْزَلْنَاه",
+      "pronunciation": "Kitaabun anzalnaah",
+      "meaning": "A book We revealed"
+    }
   },
   {
     "word_id": 38,
@@ -361,7 +546,12 @@
     "translation": "sign/verse",
     "occurrences": 382,
     "type": "Noun",
-    "image": "038-aayat.jpg"
+    "image": "038-aayat.jpg",
+    "example": {
+      "arabic": "هَذِهِ آيَة",
+      "pronunciation": "Haadhihi aayah",
+      "meaning": "This is a sign/verse"
+    }
   },
   {
     "word_id": 39,
@@ -371,7 +561,12 @@
     "occurrences": 461,
     "type": "Noun",
     "root": "أرض",
-    "image": "039-'Al-'ard.jpg"
+    "image": "039-'Al-'ard.jpg",
+    "example": {
+      "arabic": "فِي الْأَرْض",
+      "pronunciation": "Fil-'ard",
+      "meaning": "In the earth"
+    }
   },
   {
     "word_id": 40,
@@ -381,7 +576,12 @@
     "occurrences": 310,
     "type": "Noun",
     "root": "س م و",
-    "image": "040-As-samaa'.jpg"
+    "image": "040-As-samaa'.jpg",
+    "example": {
+      "arabic": "مِنَ السَّمَاء",
+      "pronunciation": "Minas-samaa'",
+      "meaning": "From the heaven"
+    }
   },
   {
     "word_id": 41,
@@ -390,7 +590,12 @@
     "translation": "those of..",
     "occurrences": 43,
     "type": "Noun",
-    "image": "041-'uloo.jpg"
+    "image": "041-'uloo.jpg",
+    "example": {
+      "arabic": "أُولُو الْأَلْبَاب",
+      "pronunciation": "Ulool-albaab",
+      "meaning": "Those of understanding"
+    }
   },
   {
     "word_id": 42,
@@ -399,7 +604,12 @@
     "translation": "if",
     "occurrences": 201,
     "type": "Particle",
-    "image": "042-Law.jpg"
+    "image": "042-Law.jpg",
+    "example": {
+      "arabic": "لَوْ كَانَ هُنَا",
+      "pronunciation": "Law kaana hunaa",
+      "meaning": "If he were here"
+    }
   },
   {
     "word_id": 43,
@@ -408,7 +618,12 @@
     "translation": "for",
     "occurrences": 1361,
     "type": "Particle",
-    "image": "043-li.jpg"
+    "image": "043-li.jpg",
+    "example": {
+      "arabic": "هَذَا لَكَ",
+      "pronunciation": "Haadha laka",
+      "meaning": "This is for you"
+    }
   },
   {
     "word_id": 44,
@@ -417,7 +632,12 @@
     "translation": "from",
     "occurrences": 3215,
     "type": "Particle",
-    "image": "044-min.jpg"
+    "image": "044-min.jpg",
+    "example": {
+      "arabic": "مِنْ أَيْنَ أَنْتَ؟",
+      "pronunciation": "Min ayna anta?",
+      "meaning": "Where are you from?"
+    }
   },
   {
     "word_id": 45,
@@ -426,7 +646,12 @@
     "translation": "with",
     "occurrences": 416,
     "type": "Particle",
-    "image": "045-'an.jpg"
+    "image": "045-'an.jpg",
+    "example": {
+      "arabic": "رَضِيَ اللهُ عَنْه",
+      "pronunciation": "Radiyallahu 'anh",
+      "meaning": "May Allah be pleased with him"
+    }
   },
   {
     "word_id": 46,
@@ -435,7 +660,12 @@
     "translation": "certainly",
     "occurrences": 406,
     "type": "Particle",
-    "image": "046-laqad.jpg"
+    "image": "046-laqad.jpg",
+    "example": {
+      "arabic": "لَقَدْ جِئْت",
+      "pronunciation": "Laqad ji't",
+      "meaning": "Certainly I came"
+    }
   },
   {
     "word_id": 47,
@@ -445,7 +675,12 @@
     "occurrences": 70,
     "type": "Noun",
     "root": "قرأ",
-    "image": "047-Al-Qur'aan.jpg"
+    "image": "047-Al-Qur'aan.jpg",
+    "example": {
+      "arabic": "هَذَا الْقُرْآن",
+      "pronunciation": "Haadhal-Qur'aan",
+      "meaning": "This is the Qur'an"
+    }
   },
   {
     "word_id": 48,
@@ -454,7 +689,12 @@
     "translation": "if",
     "occurrences": 691,
     "type": "Particle",
-    "image": "048-'in.jpg"
+    "image": "048-'in.jpg",
+    "example": {
+      "arabic": "إِنْ تَنْصُرُوا الله",
+      "pronunciation": "In tansurullah",
+      "meaning": "If you help Allah"
+    }
   },
   {
     "word_id": 49,
@@ -464,16 +704,26 @@
     "occurrences": 56,
     "type": "Verb",
     "root": "شيء",
-    "image": "049-shaa'a.jpg"
+    "image": "049-shaa'a.jpg",
+    "example": {
+      "arabic": "شَاءَ الله",
+      "pronunciation": "Shaa'allah",
+      "meaning": "Allah willed"
+    }
   },
   {
     "word_id": 50,
-    "arabic": "اِنْ",
+    "arabic": "إِنَّ",
     "transliteration": "'inna",
     "translation": "indeed",
     "occurrences": 1534,
     "type": "Particle",
-    "image": "050-'inna.jpg"
+    "image": "050-'inna.jpg",
+    "example": {
+      "arabic": "إِنَّ اللهَ مَعَنَا",
+      "pronunciation": "Innal-laha ma'anaa",
+      "meaning": "Indeed, Allah is with us"
+    }
   },
   {
     "word_id": 51,
@@ -482,7 +732,12 @@
     "translation": "only",
     "occurrences": 145,
     "type": "Particle",
-    "image": "051-'innamaa.jpg"
+    "image": "051-'innamaa.jpg",
+    "example": {
+      "arabic": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّات",
+      "pronunciation": "Innamal-a'maalu bin-niyyaat",
+      "meaning": "Deeds are only judged by intentions"
+    }
   },
   {
     "word_id": 52,
@@ -492,7 +747,12 @@
     "occurrences": 41,
     "type": "Noun",
     "root": "ع م ل",
-    "image": "052-'amal.jpg"
+    "image": "052-'amal.jpg",
+    "example": {
+      "arabic": "هَذَا عَمَلٌ صَالِح",
+      "pronunciation": "Haadha 'amalun saalih",
+      "meaning": "This is a righteous deed"
+    }
   },
   {
     "word_id": 53,
@@ -501,7 +761,12 @@
     "translation": "in",
     "occurrences": 510,
     "type": "Particle",
-    "image": "053-bi.jpg"
+    "image": "053-bi.jpg",
+    "example": {
+      "arabic": "بِسْمِ الله",
+      "pronunciation": "Bismillah",
+      "meaning": "In the name of Allah"
+    }
   },
   {
     "word_id": 54,
@@ -510,7 +775,12 @@
     "translation": "in/into",
     "occurrences": 1684,
     "type": "Particle",
-    "image": "054-fee.jpg"
+    "image": "054-fee.jpg",
+    "example": {
+      "arabic": "هُوَ فِي الْبَيْت",
+      "pronunciation": "Huwa fil-bayt",
+      "meaning": "He is in the house"
+    }
   },
   {
     "word_id": 55,
@@ -519,7 +789,12 @@
     "translation": "the way",
     "occurrences": 176,
     "type": "Noun",
-    "image": "055-As-sabeel.jpg"
+    "image": "055-As-sabeel.jpg",
+    "example": {
+      "arabic": "فِي سَبِيلِ الله",
+      "pronunciation": "Fee sabeelillah",
+      "meaning": "In the way of Allah"
+    }
   },
   {
     "word_id": 56,
@@ -528,7 +803,12 @@
     "translation": "on; upon",
     "occurrences": 1423,
     "type": "Particle",
-    "image": "056-'alaa.jpg"
+    "image": "056-'alaa.jpg",
+    "example": {
+      "arabic": "السَّلَامُ عَلَيْكُمْ",
+      "pronunciation": "As-salaamu 'alaykum",
+      "meaning": "Peace be upon you"
+    }
   },
   {
     "word_id": 57,
@@ -537,7 +817,12 @@
     "translation": "(the one) who",
     "occurrences": 304,
     "type": "Noun",
-    "image": "057-'allazee.jpg"
+    "image": "057-'allazee.jpg",
+    "example": {
+      "arabic": "الرَّجُلُ الَّذِي هُنَا",
+      "pronunciation": "Ar-rajulul-ladhee hunaa",
+      "meaning": "The man who is here"
+    }
   },
   {
     "word_id": 58,
@@ -546,7 +831,12 @@
     "translation": "which",
     "occurrences": 59,
     "type": "Noun",
-    "image": "058-'ayyun.jpg"
+    "image": "058-'ayyun.jpg",
+    "example": {
+      "arabic": "أَيُّكُمْ أَحْسَن؟",
+      "pronunciation": "Ayyukum ahsan?",
+      "meaning": "Which of you is best?"
+    }
   },
   {
     "word_id": 59,
@@ -556,7 +846,12 @@
     "occurrences": 36,
     "type": "Noun",
     "root": "ح س ن",
-    "image": "059-'ahsan.jpg"
+    "image": "059-'ahsan.jpg",
+    "example": {
+      "arabic": "أَنْتَ أَحْسَن",
+      "pronunciation": "Anta ahsan",
+      "meaning": "You are best"
+    }
   },
   {
     "word_id": 60,
@@ -565,7 +860,12 @@
     "translation": "to",
     "occurrences": 736,
     "type": "Particle",
-    "image": "060-'ilaa.jpg"
+    "image": "060-'ilaa.jpg",
+    "example": {
+      "arabic": "إِلَى الْبَيْت",
+      "pronunciation": "Ilaal-bayt",
+      "meaning": "To the house"
+    }
   },
   {
     "word_id": 61,
@@ -574,7 +874,12 @@
     "translation": "with",
     "occurrences": 163,
     "type": "Particle",
-    "image": "061-ma'a.jpg"
+    "image": "061-ma'a.jpg",
+    "example": {
+      "arabic": "مَعَ أَصْدِقَائِي",
+      "pronunciation": "Ma'a asdiqaa'ee",
+      "meaning": "With my friends"
+    }
   },
   {
     "word_id": 62,
@@ -583,7 +888,12 @@
     "translation": "with",
     "occurrences": 197,
     "type": "Particle",
-    "image": "062-'inda.jpg"
+    "image": "062-'inda.jpg",
+    "example": {
+      "arabic": "عِنْدَ أَصْدِقَائِي",
+      "pronunciation": "'Inda asdiqaa'ee",
+      "meaning": "With my friends"
+    }
   },
   {
     "word_id": 63,
@@ -592,7 +902,12 @@
     "translation": "the mankind",
     "occurrences": 65,
     "type": "Noun",
-    "image": "063-Al-'insaan.jpg"
+    "image": "063-Al-'insaan.jpg",
+    "example": {
+      "arabic": "الْإِنْسَانُ هُنَا",
+      "pronunciation": "Al-'insaanu hunaa",
+      "meaning": "The mankind is here"
+    }
   },
   {
     "word_id": 64,
@@ -601,7 +916,12 @@
     "translation": "except",
     "occurrences": 664,
     "type": "Particle",
-    "image": "064-'illaa.jpg"
+    "image": "064-'illaa.jpg",
+    "example": {
+      "arabic": "إِلَّا الله",
+      "pronunciation": "'Illaa Allah",
+      "meaning": "Except Allah"
+    }
   },
   {
     "word_id": 65,
@@ -611,7 +931,12 @@
     "occurrences": 258,
     "type": "Verb",
     "root": "أمن",
-    "image": "065-'aamanoo.jpg"
+    "image": "065-'aamanoo.jpg",
+    "example": {
+      "arabic": "آمَنُوا بِالله",
+      "pronunciation": "'Aamanoo billaah",
+      "meaning": "They believed in Allah"
+    }
   },
   {
     "word_id": 66,
@@ -621,7 +946,12 @@
     "occurrences": 247,
     "type": "Noun",
     "root": "ح ق ق",
-    "image": "066-Al-haqq.jpg"
+    "image": "066-Al-haqq.jpg",
+    "example": {
+      "arabic": "الْحَقُّ هُنَا",
+      "pronunciation": "Al-haqqu hunaa",
+      "meaning": "The truth is here"
+    }
   },
   {
     "word_id": 67,
@@ -630,7 +960,12 @@
     "translation": "or",
     "occurrences": 280,
     "type": "Particle",
-    "image": "067-aw.jpg"
+    "image": "067-aw.jpg",
+    "example": {
+      "arabic": "أَوْ هُوَ هُنَا",
+      "pronunciation": "Aw huwa hunaa",
+      "meaning": "Or is he here?"
+    }
   },
   {
     "word_id": 68,
@@ -639,7 +974,12 @@
     "translation": "this",
     "occurrences": 225,
     "type": "Noun",
-    "image": "068-haazaa.jpg"
+    "image": "068-haazaa.jpg",
+    "example": {
+      "arabic": "هُذَا كِتَاب",
+      "pronunciation": "Haazaa kitaab",
+      "meaning": "This is a book"
+    }
   },
   {
     "word_id": 69,
@@ -648,7 +988,12 @@
     "translation": "this",
     "occurrences": 47,
     "type": "Noun",
-    "image": "069-haazihee.jpg"
+    "image": "069-haazihee.jpg",
+    "example": {
+      "arabic": "هَذِهِ كِتَاب",
+      "pronunciation": "Haazihee kitaab",
+      "meaning": "This is a book"
+    }
   },
   {
     "word_id": 70,
@@ -657,7 +1002,12 @@
     "translation": "that",
     "occurrences": 478,
     "type": "Noun",
-    "image": "070-zaalika.jpg"
+    "image": "070-zaalika.jpg",
+    "example": {
+      "arabic": "ذَلِكَ كِتَاب",
+      "pronunciation": "Zaalika kitaab",
+      "meaning": "That is a book"
+    }
   },
   {
     "word_id": 71,
@@ -666,7 +1016,12 @@
     "translation": "that/these",
     "occurrences": 43,
     "type": "Noun",
-    "image": "071-tilka.jpg"
+    "image": "071-tilka.jpg",
+    "example": {
+      "arabic": "تِلُكَ كِتَاب",
+      "pronunciation": "Tilka kitaab",
+      "meaning": "That is a book"
+    }
   },
   {
     "word_id": 72,
@@ -675,7 +1030,12 @@
     "translation": "these",
     "occurrences": 46,
     "type": "Noun",
-    "image": "072-haa'ulaa'i.jpg"
+    "image": "072-haa'ulaa'i.jpg",
+    "example": {
+      "arabic": "هؤُلَاءِ كِتَاب",
+      "pronunciation": "Haa'ulaa'i kitaab",
+      "meaning": "These are books"
+    }
   },
   {
     "word_id": 73,
@@ -684,7 +1044,12 @@
     "translation": "those",
     "occurrences": 204,
     "type": "Noun",
-    "image": "073-'ulaa'ika.jpg"
+    "image": "073-'ulaa'ika.jpg",
+    "example": {
+      "arabic": "أُولَبِكَ كِتَاب",
+      "pronunciation": "'Ulaa'ika kitaab",
+      "meaning": "Those are books"
+    }
   },
   {
     "word_id": 74,
@@ -693,7 +1058,12 @@
     "translation": "when",
     "occurrences": 239,
     "type": "Particle",
-    "image": "074-'iz.jpg"
+    "image": "074-'iz.jpg",
+    "example": {
+      "arabic": "إِذْ جَاءَ",
+      "pronunciation": "'Iz jaa'a",
+      "meaning": "When he came"
+    }
   },
   {
     "word_id": 75,
@@ -702,7 +1072,12 @@
     "translation": "when",
     "occurrences": 423,
     "type": "Particle",
-    "image": "075-izaa.jpg"
+    "image": "075-izaa.jpg",
+    "example": {
+      "arabic": "إِذَا جَاءَ نَصْرُ الله",
+      "pronunciation": "Idhaa jaa'a nasrullah",
+      "meaning": "When the victory of Allah comes"
+    }
   },
   {
     "word_id": 76,
@@ -712,7 +1087,12 @@
     "occurrences": 171,
     "type": "Verb",
     "root": "ج يء",
-    "image": "076-jaa'a.jpg"
+    "image": "076-jaa'a.jpg",
+    "example": {
+      "arabic": "جَاءَ هُنَا",
+      "pronunciation": "Jaa'a hunaa",
+      "meaning": "He came here"
+    }
   },
   {
     "word_id": 77,
@@ -721,7 +1101,12 @@
     "translation": "the people",
     "occurrences": 241,
     "type": "Noun",
-    "image": "077-'annaas.jpg"
+    "image": "077-'annaas.jpg",
+    "example": {
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاس",
+      "pronunciation": "Qul a'oodhu bi rabbin-naas",
+      "meaning": "Say, I seek refuge in the Lord of the people"
+    }
   },
   {
     "word_id": 78,
@@ -731,7 +1116,12 @@
     "occurrences": 100,
     "type": "Verb",
     "root": "ف ع ل",
-    "image": "078-fa'ala.jpg"
+    "image": "078-fa'ala.jpg",
+    "example": {
+      "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ",
+      "pronunciation": "Alam tara kayfa fa'ala rabbuka",
+      "meaning": "Have you not seen how your Lord did"
+    }
   },
   {
     "word_id": 79,
@@ -741,7 +1131,12 @@
     "occurrences": 344,
     "type": "Verb",
     "root": "ج ع ل",
-    "image": "079-ja'ala.jpg"
+    "image": "079-ja'ala.jpg",
+    "example": {
+      "arabic": "جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا",
+      "pronunciation": "Ja'ala lakumul-arda firaashaa",
+      "meaning": "He made the earth a couch for you"
+    }
   },
   {
     "word_id": 80,
@@ -751,7 +1146,12 @@
     "occurrences": 25,
     "type": "Verb",
     "root": "ف ت ح",
-    "image": "080-fataha.jpg"
+    "image": "080-fataha.jpg",
+    "example": {
+      "arabic": "فَتَحَ اللهُ لَكَ",
+      "pronunciation": "Fatahal-lahu laka",
+      "meaning": "May Allah open (the way) for you"
+    }
   },
   {
     "word_id": 81,
@@ -761,7 +1161,12 @@
     "occurrences": 332,
     "type": "Verb",
     "root": "قول",
-    "image": "081-qul.jpg"
+    "image": "081-qul.jpg",
+    "example": {
+      "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاس",
+      "pronunciation": "Qul a'oodhu bi rabbin-naas",
+      "meaning": "Say, I seek refuge in the Lord of the people"
+    }
   },
   {
     "word_id": 82,
@@ -770,7 +1175,12 @@
     "translation": "the One",
     "occurrences": 74,
     "type": "Noun",
-    "image": "082-'ahad.jpg"
+    "image": "082-'ahad.jpg",
+    "example": {
+      "arabic": "قُلْ هُوَ اللهُ أَحَد",
+      "pronunciation": "Qul huwal-lahu ahad",
+      "meaning": "Say, He is Allah, [who is] One"
+    }
   },
   {
     "word_id": 83,
@@ -788,7 +1198,12 @@
     "translation": "never",
     "occurrences": 106,
     "type": "Particle",
-    "image": "084-lan.jpg"
+    "image": "084-lan.jpg",
+    "example": {
+      "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "pronunciation": "Lam yalid wa lam yoolad",
+      "meaning": "He neither begets nor is born"
+    }
   },
   {
     "word_id": 85,
@@ -798,7 +1213,12 @@
     "occurrences": 80,
     "type": "Noun",
     "root": "ن ص ر",
-    "image": "085-nasr.jpg"
+    "image": "085-nasr.jpg",
+    "example": {
+      "arabic": "إِذَا جَاءَ نَصْرُ الله",
+      "pronunciation": "Idhaa jaa'a nasrullah",
+      "meaning": "When the help of Allah comes"
+    }
   },
   {
     "word_id": 86,
@@ -808,7 +1228,12 @@
     "occurrences": 237,
     "type": "Verb",
     "root": "خ ل ق",
-    "image": "086-khalaqa.jpg"
+    "image": "086-khalaqa.jpg",
+    "example": {
+      "arabic": "خَلَقَ الْإِنْسَانَ",
+      "pronunciation": "Khalaqal-insaan",
+      "meaning": "He created man"
+    }
   },
   {
     "word_id": 87,
@@ -818,7 +1243,12 @@
     "occurrences": 151,
     "type": "Verb",
     "root": "ذكر",
-    "image": "087-zakara.jpg"
+    "image": "087-zakara.jpg",
+    "example": {
+      "arabic": "ذَكَرَ اللهَ",
+      "pronunciation": "Zakara Allah",
+      "meaning": "He remembered Allah"
+    }
   },
   {
     "word_id": 88,
@@ -828,7 +1258,12 @@
     "occurrences": 142,
     "type": "Verb",
     "root": "ع ب د",
-    "image": "088-'abada.jpg"
+    "image": "088-'abada.jpg",
+    "example": {
+      "arabic": "عَبَدَ اللهَ",
+      "pronunciation": "'Abada Allah",
+      "meaning": "He worshipped Allah"
+    }
   },
   {
     "word_id": 89,
@@ -838,7 +1273,12 @@
     "occurrences": 283,
     "type": "Noun",
     "root": "شيء",
-    "image": "089-shay'.jpg"
+    "image": "089-shay'.jpg",
+    "example": {
+      "arabic": "عَلَى كُلِّ شَيْءٍ قَدِير",
+      "pronunciation": "'Alaa kulli shay'in qadeer",
+      "meaning": "Powerful over all things"
+    }
   },
   {
     "word_id": 90,
@@ -848,7 +1288,12 @@
     "occurrences": 50,
     "type": "Verb",
     "root": "ضرب",
-    "image": "090-daraba.jpg"
+    "image": "090-daraba.jpg",
+    "example": {
+      "arabic": "ضَرَبَ اللهُ عَدُوّه",
+      "pronunciation": "Daraba Allah 'aduwwahu",
+      "meaning": "He struck his enemy"
+    }
   },
   {
     "word_id": 91,
@@ -858,7 +1303,12 @@
     "occurrences": 98,
     "type": "Verb",
     "root": "س م ع",
-    "image": "091-sami'a.jpg"
+    "image": "091-sami'a.jpg",
+    "example": {
+      "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَه",
+      "pronunciation": "Sami'al-lahu liman hamidah",
+      "meaning": "Allah listens to the one who praises Him"
+    }
   },
   {
     "word_id": 92,
@@ -868,7 +1318,12 @@
     "occurrences": 562,
     "type": "Verb",
     "root": "ع ل م",
-    "image": "092-'alima.jpg"
+    "image": "092-'alima.jpg",
+    "example": {
+      "arabic": "عَلِمَ اللهُ كُلَّ شَيْءٍ",
+      "pronunciation": "'Alimal-lahu kulli shay'in",
+      "meaning": "Allah knows everything"
+    }
   },
   {
     "word_id": 93,
@@ -878,7 +1333,12 @@
     "occurrences": 318,
     "type": "Verb",
     "root": "ع م ل",
-    "image": "093-'amila.jpg"
+    "image": "093-'amila.jpg",
+    "example": {
+      "arabic": "عَمِلَ اللهُ كُلَّ شَيْءٍ",
+      "pronunciation": "'Amilal-lahu kulli shay'in",
+      "meaning": "Allah did everything"
+    }
   },
   {
     "word_id": 94,
@@ -888,7 +1348,12 @@
     "occurrences": 23,
     "type": "Noun",
     "root": "ح د ث",
-    "image": "094-hadee.jpg"
+    "image": "094-hadee.jpg",
+    "example": {
+      "arabic": "هَذَا حَدِيثٌ صَحِيح",
+      "pronunciation": "Haadha hadeethun saheeh",
+      "meaning": "This is a correct statement"
+    }
   },
   {
     "word_id": 95,
@@ -898,7 +1363,12 @@
     "occurrences": 145,
     "type": "Noun",
     "root": "أ ل ه",
-    "image": "095-ilaah.jpg"
+    "image": "095-ilaah.jpg",
+    "example": {
+      "arabic": "لَا إِلَهَ إِلَّا الله",
+      "pronunciation": "Laa ilaaha illallah",
+      "meaning": "There is no god but Allah"
+    }
   },
   {
     "word_id": 96,
@@ -908,7 +1378,12 @@
     "occurrences": 44,
     "type": "Noun",
     "root": "ص د ر",
-    "image": "096-sadr.jpg"
+    "image": "096-sadr.jpg",
+    "example": {
+      "arabic": "صَدْرُ الْإِنْسَان",
+      "pronunciation": "Sadru al-insaan",
+      "meaning": "The chest of the human"
+    }
   },
   {
     "word_id": 97,
@@ -918,7 +1393,12 @@
     "occurrences": 88,
     "type": "Noun",
     "root": "م ل ك",
-    "image": "097-malak.jpg"
+    "image": "097-malak.jpg",
+    "example": {
+      "arabic": "مَلَكُ الله",
+      "pronunciation": "Malakul-lah",
+      "meaning": "The angel of Allah"
+    }
   },
   {
     "word_id": 98,
@@ -928,7 +1408,12 @@
     "occurrences": 32,
     "type": "Noun",
     "root": "ج ن ن",
-    "image": "098-jinnah.jpg"
+    "image": "098-jinnah.jpg",
+    "example": {
+      "arabic": "جَنَّةُ الله",
+      "pronunciation": "Jannatul-lah",
+      "meaning": "The Jinn of Allah"
+    }
   },
   {
     "word_id": 99,
@@ -937,7 +1422,12 @@
     "translation": "O; oh",
     "occurrences": 361,
     "type": "Particle",
-    "image": "099-yaa.jpg"
+    "image": "099-yaa.jpg",
+    "example": {
+      "arabic": "يَا أَيُّهَا النَّاس",
+      "pronunciation": "Yaa ayyuhal-naas",
+      "meaning": "O people"
+    }
   },
   {
     "word_id": 100,
@@ -947,7 +1437,12 @@
     "occurrences": 383,
     "type": "Noun",
     "root": "ق و م",
-    "image": "100-Qawm.jpg"
+    "image": "100-Qawm.jpg",
+    "example": {
+      "arabic": "يَا قَوْمِ اعْبُدُوا الله",
+      "pronunciation": "Yaa qawmi'-budul-lah",
+      "meaning": "O my people, worship Allah"
+    }
   },
   {
     "word_id": 101,
@@ -956,7 +1451,12 @@
     "translation": "O; oh",
     "occurrences": 153,
     "type": "Particle",
-    "image": "101-ayyuhaa.jpg"
+    "image": "101-ayyuhaa.jpg",
+    "example": {
+      "arabic": "يَا أَيُّهَا النَّاس",
+      "pronunciation": "Yaa ayyuhal-naas",
+      "meaning": "O people"
+    }
   },
   {
     "word_id": 102,
@@ -965,7 +1465,12 @@
     "translation": "that",
     "occurrences": 571,
     "type": "Particle",
-    "image": "102-an.jpg"
+    "image": "102-an.jpg",
+    "example": {
+      "arabic": "أُرِيدُ أَنْ أَتَعَلَّم",
+      "pronunciation": "Ureedu an ata'allam",
+      "meaning": "I want to (that I) learn"
+    }
   },
   {
     "word_id": 103,
@@ -974,7 +1479,12 @@
     "translation": "that",
     "occurrences": 359,
     "type": "Particle",
-    "image": "103-anna.jpg"
+    "image": "103-anna.jpg",
+    "example": {
+      "arabic": "أَعْلَمُ أَنَّ اللهَ كَرِيم",
+      "pronunciation": "A'lamu anna-llaha kareem",
+      "meaning": "I know that Allah is generous"
+    }
   },
   {
     "word_id": 104,
@@ -984,7 +1494,12 @@
     "occurrences": 4,
     "type": "Noun",
     "root": "ح م د",
-    "image": "104-Muhammad.jpg"
+    "image": "104-Muhammad.jpg",
+    "example": {
+      "arabic": "مُحَمَّدٌ رَسُولُ الله",
+      "pronunciation": "Muhammadun Rasoolul-lah",
+      "meaning": "Muhammad is the Messenger of Allah"
+    }
   },
   {
     "word_id": 105,
@@ -994,7 +1509,12 @@
     "occurrences": 332,
     "type": "Noun",
     "root": "ر س ل",
-    "image": "105-Rasool.jpg"
+    "image": "105-Rasool.jpg",
+    "example": {
+      "arabic": "رَسُولُ الله",
+      "pronunciation": "Rasoolul-lah",
+      "meaning": "The Messenger of Allah"
+    }
   },
   {
     "word_id": 106,
@@ -1003,7 +1523,12 @@
     "translation": "the prayer",
     "occurrences": 83,
     "type": "Noun",
-    "image": "106-As-salat.jpg"
+    "image": "106-As-salat.jpg",
+    "example": {
+      "arabic": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْم",
+      "pronunciation": "As-salatu khayrun minan-nawm",
+      "meaning": "The prayer is better than sleep"
+    }
   },
   {
     "word_id": 107,
@@ -1013,7 +1538,12 @@
     "occurrences": 40,
     "type": "Noun",
     "root": "ش ر ك",
-    "image": "107-shareek.jpg"
+    "image": "107-shareek.jpg",
+    "example": {
+      "arabic": "لَا شَرِيكَ لَهُ",
+      "pronunciation": "Laa shareeka lahu",
+      "meaning": "He has no partner"
+    }
   },
   {
     "word_id": 108,
@@ -1022,7 +1552,12 @@
     "translation": "what",
     "occurrences": 27,
     "type": "Particle",
-    "image": "108-maa'aa.jpg"
+    "image": "108-maa'aa.jpg",
+    "example": {
+      "arabic": "مَاذَا تَفْعَلُ؟",
+      "pronunciation": "Maa'aa taf'alu?",
+      "meaning": "What are you doing?"
+    }
   },
   {
     "word_id": 109,
@@ -1032,7 +1567,12 @@
     "occurrences": 41,
     "type": "Noun",
     "root": "س ب ح",
-    "image": "109-subhaana.jpg"
+    "image": "109-subhaana.jpg",
+    "example": {
+      "arabic": "سُبْحَانَ الله",
+      "pronunciation": "Subhaanal-lah",
+      "meaning": "Glory be to Allah"
+    }
   },
   {
     "word_id": 110,
@@ -1042,7 +1582,12 @@
     "occurrences": 107,
     "type": "Noun",
     "root": "ع ظ م",
-    "image": "110-Al-azeem.jpg"
+    "image": "110-Al-azeem.jpg",
+    "example": {
+      "arabic": "اللهُ الْعَظِيم",
+      "pronunciation": "Allahu Al-azeem",
+      "meaning": "Allah is the Great"
+    }
   },
   {
     "word_id": 111,
@@ -1052,7 +1597,12 @@
     "occurrences": 46,
     "type": "Noun",
     "root": "ط ي ب",
-    "image": "111-tayyibaat.jpg"
+    "image": "111-tayyibaat.jpg",
+    "example": {
+      "arabic": "الطَّيِّبَاتُ لِلْمُؤْمِنِينَ",
+      "pronunciation": "At-tayyibaatu lil-mu'mineen",
+      "meaning": "Good things are for the believers"
+    }
   },
   {
     "word_id": 112,
@@ -1062,7 +1612,12 @@
     "occurrences": 42,
     "type": "Noun",
     "root": "س ل م",
-    "image": "112-salaam.jpg"
+    "image": "112-salaam.jpg",
+    "example": {
+      "arabic": "السَّلَامُ عَلَيْكُمْ",
+      "pronunciation": "As-salaamu 'alaykum",
+      "meaning": "Peace be upon you"
+    }
   },
   {
     "word_id": 113,
@@ -1072,7 +1627,12 @@
     "occurrences": 75,
     "type": "Noun",
     "root": "ن ب أ",
-    "image": "113-an-nabi.jpg"
+    "image": "113-an-nabi.jpg",
+    "example": {
+      "arabic": "النَّبِيُّ مُحَمَّدٌ",
+      "pronunciation": "An-nabiyyu Muhammadun",
+      "meaning": "The Prophet Muhammad"
+    }
   },
   {
     "word_id": 114,
@@ -1082,7 +1642,12 @@
     "occurrences": 114,
     "type": "Noun",
     "root": "ر ح م",
-    "image": "114-rahmah.jpg"
+    "image": "114-rahmah.jpg",
+    "example": {
+      "arabic": "رَحْمَةُ الله",
+      "pronunciation": "Rahmatul-lah",
+      "meaning": "The Mercy of Allah"
+    }
   },
   {
     "word_id": 115,
@@ -1092,7 +1657,12 @@
     "occurrences": 125,
     "type": "Noun",
     "root": "ع ب د",
-    "image": "115-ibaad.jpg"
+    "image": "115-ibaad.jpg",
+    "example": {
+      "arabic": "عِبَادُ الله",
+      "pronunciation": "Ibaadul-lah",
+      "meaning": "The slaves/servants of Allah"
+    }
   },
   {
     "word_id": 116,
@@ -1101,7 +1671,12 @@
     "translation": "soon",
     "occurrences": 42,
     "type": "Particle",
-    "image": "116-sawfa.jpg"
+    "image": "116-sawfa.jpg",
+    "example": {
+      "arabic": "سَوْفَ أَذْهَبُ",
+      "pronunciation": "Sawfa adhhab",
+      "meaning": "I will go soon"
+    }
   },
   {
     "word_id": 117,
@@ -1110,7 +1685,12 @@
     "translation": "Ibrahim",
     "occurrences": 69,
     "type": "Noun",
-    "image": "117-ibraaheem.jpg"
+    "image": "117-ibraaheem.jpg",
+    "example": {
+      "arabic": "إِبْرَاهِيمُ رَسُولُ الله",
+      "pronunciation": "Ibraaheem Rasoolul-lah",
+      "meaning": "Ibrahim is the Messenger of Allah"
+    }
   },
   {
     "word_id": 118,
@@ -1120,7 +1700,12 @@
     "occurrences": 293,
     "type": "Noun",
     "root": "ن ف س",
-    "image": "118-nafs.jpg"
+    "image": "118-nafs.jpg",
+    "example": {
+      "arabic": "نَفْسُ الْإِنْسَان",
+      "pronunciation": "Nafsu al-insaan",
+      "meaning": "The soul of the human"
+    }
   },
   {
     "word_id": 119,
@@ -1130,7 +1715,12 @@
     "occurrences": 63,
     "type": "Noun",
     "root": "ك ث ر",
-    "image": "119-katheer.jpg"
+    "image": "119-katheer.jpg",
+    "example": {
+      "arabic": "كَثِيرٌ مِنَ النَّاس",
+      "pronunciation": "Katheerun minan-naas",
+      "meaning": "Many of the people"
+    }
   },
   {
     "word_id": 120,
@@ -1140,7 +1730,12 @@
     "occurrences": 39,
     "type": "Noun",
     "root": "ذ ن ب",
-    "image": "120-Az-Zunoob.jpg"
+    "image": "120-Az-Zunoob.jpg",
+    "example": {
+      "arabic": "الذُّنُوبُ كَثِيرَة",
+      "pronunciation": "Az-zunoobu katheerah",
+      "meaning": "The sins are many"
+    }
   },
   {
     "word_id": 121,
@@ -1150,7 +1745,12 @@
     "occurrences": 91,
     "type": "Noun",
     "root": "غ ف ر",
-    "image": "121-Ghafoor.jpg"
+    "image": "121-Ghafoor.jpg",
+    "example": {
+      "arabic": "اللهُ غَفُورٌ رَحِيمٌ",
+      "pronunciation": "Allahu Ghafoorun Raheemun",
+      "meaning": "Allah is Oft-Forgiving, Most Merciful"
+    }
   },
   {
     "word_id": 122,
@@ -1160,7 +1760,12 @@
     "occurrences": 115,
     "type": "Noun",
     "root": "د ن و",
-    "image": "122-Ad-dunya.jpg"
+    "image": "122-Ad-dunya.jpg",
+    "example": {
+      "arabic": "حَيَاةُ الدُّنْيَا",
+      "pronunciation": "Hayaatud-dunya",
+      "meaning": "The life of the world"
+    }
   },
   {
     "word_id": 123,
@@ -1170,7 +1775,12 @@
     "occurrences": 115,
     "type": "Noun",
     "root": "أ خ ر",
-    "image": "123-Al-aakhirat.jpg"
+    "image": "123-Al-aakhirat.jpg",
+    "example": {
+      "arabic": "حَيَاةُ الْآخِرَةِ",
+      "pronunciation": "Hayaatul-aakhirah",
+      "meaning": "The life of the Hereafter"
+    }
   },
   {
     "word_id": 124,
@@ -1180,7 +1790,12 @@
     "occurrences": 322,
     "type": "Noun",
     "root": "ع ذ ب",
-    "image": "124-azaab.jpg"
+    "image": "124-azaab.jpg",
+    "example": {
+      "arabic": "عَذَابُ الله",
+      "pronunciation": "Azaabul-lah",
+      "meaning": "The punishment of Allah"
+    }
   },
   {
     "word_id": 125,
@@ -1190,6 +1805,11 @@
     "occurrences": 145,
     "type": "Noun",
     "root": "ن و ر",
-    "image": "125-An-naar.jpg"
+    "image": "125-An-naar.jpg",
+    "example": {
+      "arabic": "النَّارُ حَرِيقٌ",
+      "pronunciation": "An-naar harriqun",
+      "meaning": "The Fire is burning"
+    }
   }
 ]
