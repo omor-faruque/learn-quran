@@ -29,6 +29,10 @@ const els = {
   translit: document.getElementById('w-translit'),
   translation: document.getElementById('w-translation'),
   badges: document.getElementById('w-badges'),
+  example: document.getElementById('w-example'),
+  exArabic: document.getElementById('w-ex-arabic'),
+  exPronunciation: document.getElementById('w-ex-pronunciation'),
+  exMeaning: document.getElementById('w-ex-meaning'),
   occ: document.getElementById('w-occ'),
   freqFill: document.getElementById('w-freq-fill'),
   flipCard: document.getElementById('flip-card'),
@@ -161,6 +165,14 @@ function renderCard(){
   els.prevBtn.disabled = currentIndex === 0;
   els.nextBtn.disabled = currentIndex === filteredWords.length - 1;
   els.detailsBtn.disabled = !w.image;
+  if(w.example){
+    els.exArabic.textContent = w.example.arabic;
+    els.exPronunciation.textContent = w.example.pronunciation;
+    els.exMeaning.textContent = w.example.meaning;
+    els.example.style.display = 'block';
+  } else {
+    els.example.style.display = 'none';
+  }
   updateDetailsContent(w);
   updateProgress();
   requestAnimationFrame(syncCardHeight);
