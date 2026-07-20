@@ -37,9 +37,9 @@
     "type": "Noun",
     "image": "003-huwa.jpg",
     "example": {
-      "arabic": "هُوَ هُنَا",
-      "pronunciation": "Huwa hunaa",
-      "meaning": "He is here"
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "pronunciation": "Qul huwal-lahu ahad",
+      "meaning": "Say, He is Allah, [who is] One"
     }
   },
   {
@@ -51,10 +51,10 @@
     "type": "Noun",
     "image": "004-hum.jpg",
     "example": {
-      "arabic": "هُمْ هُنَا",
-      "pronunciation": "Hum hunaa",
-      "meaning": "They are here"
-    }
+    "arabic": "أُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+    "pronunciation": "Ulaa'ika humul-muflihoon",
+    "meaning": "Those are they who are successful"
+  }
   },
   {
     "word_id": 5,
