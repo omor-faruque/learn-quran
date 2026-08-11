@@ -336,7 +336,7 @@
   },
   {
     "word_id": 24,
-    "arabic": "يوم",
+    "arabic": "یَومُ",
     "transliteration": "yawm",
     "translation": "day",
     "occurrences": 405,
@@ -344,9 +344,9 @@
     "root": "يَوْم",
     "image": "024-yawm.jpg",
     "example": {
-      "arabic": "هَذَا الْيَوْم",
-      "pronunciation": "Haadhal-yawm",
-      "meaning": "This day"
+    "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+    "pronunciation": "Māliki yawmi d-dīn",
+    "meaning": "Master of the Day of Judgment"
     }
   },
   {
@@ -359,9 +359,9 @@
     "root": "دين",
     "image": "025-'Ad-deen.jpg",
     "example": {
-      "arabic": "يَوْمُ الدِّين",
-      "pronunciation": "Yawmud-deen",
-      "meaning": "The Day of Judgment"
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "pronunciation": "Maaliki Yawmid-deen",
+      "meaning": "Master of the Day of Judgment"
     }
   },
   {
