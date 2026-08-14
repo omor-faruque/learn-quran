@@ -397,14 +397,14 @@
     "word_id": 28,
     "arabic": "مَا",
     "transliteration": "maa",
-    "translation": "that which",
+    "translation": "what / that which",
     "occurrences": 2154,
     "type": "Particle",
     "image": "028-maa.jpg",
     "example": {
       "arabic": "هَذَا مَا أُرِيد",
       "pronunciation": "Haadha maa ureed",
-      "meaning": "This is that which I want"
+      "meaning": "This is (what / that which) I want"
     }
   },
   {
