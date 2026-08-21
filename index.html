@@ -31,6 +31,12 @@
     <button class="filter-pill" data-type="Verb" type="button">Verb</button>
     <button class="filter-pill" data-type="Particle" type="button">Particle</button>
     <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
+    <label class="sort-control" for="sort-select">Order
+      <select id="sort-select">
+        <option value="default">Default order</option>
+        <option value="occurrences">Most occurrences first</option>
+      </select>
+    </label>
     <datalist id="word-list"></datalist>
   </div>
 
