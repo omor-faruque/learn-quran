@@ -19,6 +19,7 @@ function typeClass(type){
 
 /* ============ state ============ */
 let activeType = 'All';
+let activeSort = 'default';
 let filteredWords = [];
 let currentIndex = 0;
 let currentMode = 'learn';
@@ -56,6 +57,7 @@ const els = {
   pPct: document.getElementById('p-pct'),
   searchBox: document.getElementById('search-box'),
   wordList: document.getElementById('word-list'),
+  sortSelect: document.getElementById('sort-select'),
   subhead: document.getElementById('subhead'),
   detailsSheet: document.getElementById('details-sheet'),
   detailsBackdrop: document.getElementById('details-backdrop'),
@@ -71,7 +73,8 @@ let detailsOpen = false;
 function applyFilter(type){
   activeType = type;
   document.querySelectorAll('.filter-pill').forEach(p => p.classList.toggle('active', p.dataset.type === type));
-  filteredWords = type === 'All' ? FREQUENT_WORDS.slice() : FREQUENT_WORDS.filter(w => w.type === type);
+  const words = type === 'All' ? FREQUENT_WORDS.slice() : FREQUENT_WORDS.filter(w => w.type === type);
+  filteredWords = sortWords(words);
   currentIndex = 0;
   buildDatalist();
   if(currentMode === 'learn') renderCard();
@@ -79,6 +82,18 @@ function applyFilter(type){
 }
 document.querySelectorAll('.filter-pill').forEach(btn => {
   btn.addEventListener('click', () => applyFilter(btn.dataset.type));
+});
+
+function sortWords(words){
+  if(activeSort === 'occurrences'){
+    return words.sort((a, b) => (Number(b.occurrences) || 0) - (Number(a.occurrences) || 0));
+  }
+  return words;
+}
+
+els.sortSelect.addEventListener('change', () => {
+  activeSort = els.sortSelect.value;
+  applyFilter(activeType);
 });
 
 function buildDatalist(){
@@ -492,7 +507,7 @@ async function init(){
     MAX_OCC = FREQUENT_WORDS.length
       ? Math.max(...FREQUENT_WORDS.map(w => Number(w.occurrences) || 0))
       : 0;
-    filteredWords = FREQUENT_WORDS.slice();
+    filteredWords = sortWords(FREQUENT_WORDS.slice());
     els.subhead.textContent = `the ${FREQUENT_WORDS.length} most frequent words of the Qur'an`;
     buildDatalist();
     renderCard();
