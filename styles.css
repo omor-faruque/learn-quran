@@ -163,6 +163,35 @@ h1 .accent{ color:var(--gold-light); }
 }
 .search-box::placeholder{ color:var(--ivory-dim); opacity:0.6; }
 .search-box:focus{ border-color:var(--gold); width:220px; background:rgba(255,255,255,0.06); }
+.sort-control{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-family:'Inter', sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:0.03em;
+  color:var(--ivory-dim);
+}
+.sort-control select{
+  font-family:'Inter', sans-serif;
+  font-size:11.5px;
+  font-weight:600;
+  letter-spacing:0.03em;
+  color:var(--ivory-dim);
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(201,162,39,0.2);
+  border-radius:999px;
+  padding:7px 14px;
+  outline:none;
+  cursor:pointer;
+  transition:all 0.25s ease;
+}
+.sort-control select:hover,
+.sort-control select:focus{
+  border-color:var(--gold);
+  color:var(--ivory);
+}
 
 /* ---------- ornamental frame ---------- */
 .stage{
