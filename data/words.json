@@ -402,9 +402,9 @@
     "type": "Particle",
     "image": "028-maa.jpg",
     "example": {
-      "arabic": "هَذَا مَا أُرِيد",
-      "pronunciation": "Haadha maa ureed",
-      "meaning": "This is (what / that which) I want"
+      "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "pronunciation": "Laa a'budu maa ta'budoon",
+      "meaning": "I do not worship what you worship"
     }
   },
   {
@@ -634,9 +634,9 @@
     "type": "Particle",
     "image": "044-min.jpg",
     "example": {
-      "arabic": "مِنْ أَيْنَ أَنْتَ؟",
-      "pronunciation": "Min ayna anta?",
-      "meaning": "Where are you from?"
+      "arabic": "مِـنْ شَـرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+      "pronunciation": "Min sharril-waswaasil-khannaas",
+      "meaning": "From the evil of the sneaking whisperer"
     }
   },
   {
