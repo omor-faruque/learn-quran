@@ -11,7 +11,8 @@
       "arabic": "اللهُ كَرِيم",
       "pronunciation": "Allahu kareem",
       "meaning": "Allah is generous"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 2,
@@ -26,7 +27,8 @@
       "arabic": "أَعُوذُ بِاللهِ مِنَ الشَّيْطَان",
       "pronunciation": "A'oodhu billahi minash-shaytaan",
       "meaning": "I seek refuge in Allah from Satan"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 3,
@@ -40,7 +42,8 @@
       "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ",
       "pronunciation": "Qul huwal-lahu ahad",
       "meaning": "Say, He is Allah, [who is] One"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 4,
@@ -51,10 +54,11 @@
     "type": "Noun",
     "image": "004-hum.jpg",
     "example": {
-    "arabic": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
-    "pronunciation": "Alladhina hum 'an salatihim sahoon",
-    "meaning": "Those who they are neglectful of their prayers"
-  }
+      "arabic": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
+      "pronunciation": "Alladhina hum 'an salatihim sahoon",
+      "meaning": "Those who they are neglectful of their prayers"
+    },
+    "difficult": true
   },
   {
     "word_id": 5,
@@ -68,7 +72,8 @@
       "arabic": "أَنْتَ بِخَيْر",
       "pronunciation": "Anta bikhayr",
       "meaning": "You are okay"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 6,
@@ -82,7 +87,8 @@
       "arabic": "أَنَا بِخَيْر",
       "pronunciation": "Anaa bikhayr",
       "meaning": "I am okay"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 7,
@@ -96,7 +102,8 @@
       "arabic": "أَنْتُمْ بِخَيْر",
       "pronunciation": "Antum bikhayr",
       "meaning": "You all are okay"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 8,
@@ -110,7 +117,8 @@
       "arabic": "نَحْنُ هُنَا",
       "pronunciation": "Nahnu hunaa",
       "meaning": "We are here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 9,
@@ -124,7 +132,8 @@
       "arabic": "فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ",
       "pronunciation": "Fa-amma man thaqulat mawazeenuhu",
       "meaning": "As for he whose scales are heavy [with good deeds]"
-    }
+    },
+    "difficult": true
   },
   {
     "word_id": 10,
@@ -138,7 +147,8 @@
       "arabic": "هَلْ أَنْتَ بِخَيْر؟",
       "pronunciation": "Hal anta bikhayr?",
       "meaning": "Are you okay?"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 11,
@@ -153,7 +163,8 @@
       "arabic": "هُوَ خَيْرٌ لَكَ",
       "pronunciation": "Huwa khayrun laka",
       "meaning": "He/It is best for you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 12,
@@ -168,7 +179,8 @@
       "arabic": "مَا اسْمُكَ؟",
       "pronunciation": "Mas-muka?",
       "meaning": "What is your name?"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 13,
@@ -183,7 +195,8 @@
       "arabic": "الرَّحْمَنُ الرَّحِيم",
       "pronunciation": "Ar-rahmaanir-raheem",
       "meaning": "The Most Gracious, the Most Merciful"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 14,
@@ -198,7 +211,8 @@
       "arabic": "اللهُ رَّحِيم",
       "pronunciation": "Allahu raheem",
       "meaning": "Allah is Most Merciful"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 15,
@@ -213,7 +227,8 @@
       "arabic": "أَنْتَ كَرِيم",
       "pronunciation": "Anta kareem",
       "meaning": "You are generous"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 16,
@@ -228,7 +243,8 @@
       "arabic": "الْحَمْدُ لله",
       "pronunciation": "Al-hamdu lillah",
       "meaning": "All praise is for Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 17,
@@ -242,7 +258,8 @@
       "arabic": "الشُّكْرُ لله",
       "pronunciation": "Ash-shukru lillah",
       "meaning": "Thanks be to Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 18,
@@ -257,7 +274,8 @@
       "arabic": "رَبِّ الْعَالَمِين",
       "pronunciation": "Rabbil-'aalameen",
       "meaning": "Lord of the worlds"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 19,
@@ -272,7 +290,8 @@
       "arabic": "أَنَا مُسْلِم",
       "pronunciation": "Anaa muslim",
       "meaning": "I am a Muslim"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 20,
@@ -287,7 +306,8 @@
       "arabic": "هُوَ مُؤْمِن",
       "pronunciation": "Huwa mu'min",
       "meaning": "He is a believer"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 21,
@@ -302,7 +322,8 @@
       "arabic": "لَا تَكُنْ مُشْرِكًا",
       "pronunciation": "Laa takun mushrikan",
       "meaning": "Do not be a polytheist"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 22,
@@ -317,7 +338,8 @@
       "arabic": "هُوَ كَافِر",
       "pronunciation": "Huwa kaafir",
       "meaning": "He is a disbeliever"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 23,
@@ -332,7 +354,8 @@
       "arabic": "رَجُلٌ صَالِح",
       "pronunciation": "Rajulun saalih",
       "meaning": "A righteous man"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 24,
@@ -344,10 +367,11 @@
     "root": "يَوْم",
     "image": "024-yawm.jpg",
     "example": {
-    "arabic": "مَالِكِ يَوْمِ الدِّينِ",
-    "pronunciation": "Māliki yawmi d-dīn",
-    "meaning": "Master of the Day of Judgment"
-    }
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "pronunciation": "Māliki yawmi d-dīn",
+      "meaning": "Master of the Day of Judgment"
+    },
+    "difficult": false
   },
   {
     "word_id": 25,
@@ -362,7 +386,8 @@
       "arabic": "مَالِكِ يَوْمِ الدِّينِ",
       "pronunciation": "Maaliki Yawmid-deen",
       "meaning": "Master of the Day of Judgment"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 26,
@@ -376,7 +401,8 @@
       "arabic": "إِيَّاكَ نَعْبُد",
       "pronunciation": "Iyyaaka na'bud",
       "meaning": "You alone we worship"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 27,
@@ -391,7 +417,8 @@
       "arabic": "اللهُ رَبِّي",
       "pronunciation": "Allahu rabbee",
       "meaning": "Allah is my Lord"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 28,
@@ -405,7 +432,8 @@
       "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
       "pronunciation": "Laa a'budu maa ta'budoon",
       "meaning": "I do not worship what you worship"
-    }
+    },
+    "difficult": true
   },
   {
     "word_id": 29,
@@ -420,7 +448,8 @@
       "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
       "pronunciation": "Ihdinas-siraatal-mustaqeem",
       "meaning": "Guide us to the straight path"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 30,
@@ -435,7 +464,8 @@
       "arabic": "الصِّرَاطَ الْمُسْتَقِيم",
       "pronunciation": "As-siraatal-mustaqeem",
       "meaning": "The straight path"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 31,
@@ -449,7 +479,8 @@
       "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
       "pronunciation": "Siraatal-lazeena an'amta 'alayhim",
       "meaning": "The path of those You have blessed"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 32,
@@ -464,7 +495,8 @@
       "arabic": "غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ",
       "pronunciation": "Ghayril-maghdoobi 'alayhim",
       "meaning": "Not of those who earned anger"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 33,
@@ -478,7 +510,8 @@
       "arabic": "لَا إِلَهَ إِلَّا الله",
       "pronunciation": "Laa ilaha illallah",
       "meaning": "There is no god but Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 34,
@@ -493,7 +526,8 @@
       "arabic": "وَلَا الضَّالِّين",
       "pronunciation": "Wa lad-daalleen",
       "meaning": "Nor of those who go astray"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 35,
@@ -507,7 +541,8 @@
       "arabic": "هِيَ هُنَا",
       "pronunciation": "Hiya hunaa",
       "meaning": "She/It is here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 36,
@@ -522,7 +557,8 @@
       "arabic": "هَذَا كِتَاب",
       "pronunciation": "Haadha kitaab",
       "meaning": "This is a book"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 37,
@@ -537,7 +573,8 @@
       "arabic": "كِتَابٌ أَنْزَلْنَاه",
       "pronunciation": "Kitaabun anzalnaah",
       "meaning": "A book We revealed"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 38,
@@ -551,7 +588,8 @@
       "arabic": "هَذِهِ آيَة",
       "pronunciation": "Haadhihi aayah",
       "meaning": "This is a sign/verse"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 39,
@@ -566,7 +604,8 @@
       "arabic": "فِي الْأَرْض",
       "pronunciation": "Fil-'ard",
       "meaning": "In the earth"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 40,
@@ -581,7 +620,8 @@
       "arabic": "مِنَ السَّمَاء",
       "pronunciation": "Minas-samaa'",
       "meaning": "From the heaven"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 41,
@@ -595,7 +635,8 @@
       "arabic": "أُولُو الْأَلْبَاب",
       "pronunciation": "Ulool-albaab",
       "meaning": "Those of understanding"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 42,
@@ -609,7 +650,8 @@
       "arabic": "لَوْ كَانَ هُنَا",
       "pronunciation": "Law kaana hunaa",
       "meaning": "If he were here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 43,
@@ -623,7 +665,8 @@
       "arabic": "هَذَا لَكَ",
       "pronunciation": "Haadha laka",
       "meaning": "This is for you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 44,
@@ -637,7 +680,8 @@
       "arabic": "مِـنْ شَـرِّ الْوَسْوَاسِ الْخَنَّاسِ",
       "pronunciation": "Min sharril-waswaasil-khannaas",
       "meaning": "From the evil of the sneaking whisperer"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 45,
@@ -651,7 +695,8 @@
       "arabic": "رَضِيَ اللهُ عَنْه",
       "pronunciation": "Radiyallahu 'anh",
       "meaning": "May Allah be pleased with him"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 46,
@@ -665,7 +710,8 @@
       "arabic": "لَقَدْ جِئْت",
       "pronunciation": "Laqad ji't",
       "meaning": "Certainly I came"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 47,
@@ -680,7 +726,8 @@
       "arabic": "هَذَا الْقُرْآن",
       "pronunciation": "Haadhal-Qur'aan",
       "meaning": "This is the Qur'an"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 48,
@@ -694,7 +741,8 @@
       "arabic": "إِنْ تَنْصُرُوا الله",
       "pronunciation": "In tansurullah",
       "meaning": "If you help Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 49,
@@ -709,7 +757,8 @@
       "arabic": "شَاءَ الله",
       "pronunciation": "Shaa'allah",
       "meaning": "Allah willed"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 50,
@@ -723,7 +772,8 @@
       "arabic": "إِنَّ اللهَ مَعَنَا",
       "pronunciation": "Innal-laha ma'anaa",
       "meaning": "Indeed, Allah is with us"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 51,
@@ -737,7 +787,8 @@
       "arabic": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّات",
       "pronunciation": "Innamal-a'maalu bin-niyyaat",
       "meaning": "Deeds are only judged by intentions"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 52,
@@ -752,7 +803,8 @@
       "arabic": "هَذَا عَمَلٌ صَالِح",
       "pronunciation": "Haadha 'amalun saalih",
       "meaning": "This is a righteous deed"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 53,
@@ -766,7 +818,8 @@
       "arabic": "بِسْمِ الله",
       "pronunciation": "Bismillah",
       "meaning": "In the name of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 54,
@@ -780,7 +833,8 @@
       "arabic": "هُوَ فِي الْبَيْت",
       "pronunciation": "Huwa fil-bayt",
       "meaning": "He is in the house"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 55,
@@ -794,7 +848,8 @@
       "arabic": "فِي سَبِيلِ الله",
       "pronunciation": "Fee sabeelillah",
       "meaning": "In the way of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 56,
@@ -808,7 +863,8 @@
       "arabic": "السَّلَامُ عَلَيْكُمْ",
       "pronunciation": "As-salaamu 'alaykum",
       "meaning": "Peace be upon you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 57,
@@ -822,7 +878,8 @@
       "arabic": "الرَّجُلُ الَّذِي هُنَا",
       "pronunciation": "Ar-rajulul-ladhee hunaa",
       "meaning": "The man who is here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 58,
@@ -836,7 +893,8 @@
       "arabic": "أَيُّكُمْ أَحْسَن؟",
       "pronunciation": "Ayyukum ahsan?",
       "meaning": "Which of you is best?"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 59,
@@ -851,7 +909,8 @@
       "arabic": "أَنْتَ أَحْسَن",
       "pronunciation": "Anta ahsan",
       "meaning": "You are best"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 60,
@@ -865,7 +924,8 @@
       "arabic": "إِلَى الْبَيْت",
       "pronunciation": "Ilaal-bayt",
       "meaning": "To the house"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 61,
@@ -879,7 +939,8 @@
       "arabic": "مَعَ أَصْدِقَائِي",
       "pronunciation": "Ma'a asdiqaa'ee",
       "meaning": "With my friends"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 62,
@@ -893,7 +954,8 @@
       "arabic": "عِنْدَ أَصْدِقَائِي",
       "pronunciation": "'Inda asdiqaa'ee",
       "meaning": "With my friends"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 63,
@@ -907,7 +969,8 @@
       "arabic": "الْإِنْسَانُ هُنَا",
       "pronunciation": "Al-'insaanu hunaa",
       "meaning": "The mankind is here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 64,
@@ -921,7 +984,8 @@
       "arabic": "إِلَّا الله",
       "pronunciation": "'Illaa Allah",
       "meaning": "Except Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 65,
@@ -936,7 +1000,8 @@
       "arabic": "آمَنُوا بِالله",
       "pronunciation": "'Aamanoo billaah",
       "meaning": "They believed in Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 66,
@@ -951,7 +1016,8 @@
       "arabic": "الْحَقُّ هُنَا",
       "pronunciation": "Al-haqqu hunaa",
       "meaning": "The truth is here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 67,
@@ -965,7 +1031,8 @@
       "arabic": "أَوْ هُوَ هُنَا",
       "pronunciation": "Aw huwa hunaa",
       "meaning": "Or is he here?"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 68,
@@ -979,7 +1046,8 @@
       "arabic": "هُذَا كِتَاب",
       "pronunciation": "Haazaa kitaab",
       "meaning": "This is a book"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 69,
@@ -993,7 +1061,8 @@
       "arabic": "هَذِهِ كِتَاب",
       "pronunciation": "Haazihee kitaab",
       "meaning": "This is a book"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 70,
@@ -1007,7 +1076,8 @@
       "arabic": "ذَلِكَ كِتَاب",
       "pronunciation": "Zaalika kitaab",
       "meaning": "That is a book"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 71,
@@ -1021,7 +1091,8 @@
       "arabic": "تِلُكَ كِتَاب",
       "pronunciation": "Tilka kitaab",
       "meaning": "That is a book"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 72,
@@ -1035,7 +1106,8 @@
       "arabic": "هؤُلَاءِ كِتَاب",
       "pronunciation": "Haa'ulaa'i kitaab",
       "meaning": "These are books"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 73,
@@ -1049,7 +1121,8 @@
       "arabic": "أُولَبِكَ كِتَاب",
       "pronunciation": "'Ulaa'ika kitaab",
       "meaning": "Those are books"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 74,
@@ -1063,7 +1136,8 @@
       "arabic": "إِذْ جَاءَ",
       "pronunciation": "'Iz jaa'a",
       "meaning": "When he came"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 75,
@@ -1077,7 +1151,8 @@
       "arabic": "إِذَا جَاءَ نَصْرُ الله",
       "pronunciation": "Idhaa jaa'a nasrullah",
       "meaning": "When the victory of Allah comes"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 76,
@@ -1092,7 +1167,8 @@
       "arabic": "جَاءَ هُنَا",
       "pronunciation": "Jaa'a hunaa",
       "meaning": "He came here"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 77,
@@ -1106,7 +1182,8 @@
       "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاس",
       "pronunciation": "Qul a'oodhu bi rabbin-naas",
       "meaning": "Say, I seek refuge in the Lord of the people"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 78,
@@ -1121,7 +1198,8 @@
       "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ",
       "pronunciation": "Alam tara kayfa fa'ala rabbuka",
       "meaning": "Have you not seen how your Lord did"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 79,
@@ -1136,7 +1214,8 @@
       "arabic": "جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا",
       "pronunciation": "Ja'ala lakumul-arda firaashaa",
       "meaning": "He made the earth a couch for you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 80,
@@ -1151,7 +1230,8 @@
       "arabic": "فَتَحَ اللهُ لَكَ",
       "pronunciation": "Fatahal-lahu laka",
       "meaning": "May Allah open (the way) for you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 81,
@@ -1166,7 +1246,8 @@
       "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاس",
       "pronunciation": "Qul a'oodhu bi rabbin-naas",
       "meaning": "Say, I seek refuge in the Lord of the people"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 82,
@@ -1180,7 +1261,8 @@
       "arabic": "قُلْ هُوَ اللهُ أَحَد",
       "pronunciation": "Qul huwal-lahu ahad",
       "meaning": "Say, He is Allah, [who is] One"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 83,
@@ -1189,7 +1271,8 @@
     "translation": "not",
     "occurrences": 384,
     "type": "Particle",
-    "image": "083-lam.jpg"
+    "image": "083-lam.jpg",
+    "difficult": false
   },
   {
     "word_id": 84,
@@ -1203,7 +1286,8 @@
       "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
       "pronunciation": "Lam yalid wa lam yoolad",
       "meaning": "He neither begets nor is born"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 85,
@@ -1218,7 +1302,8 @@
       "arabic": "إِذَا جَاءَ نَصْرُ الله",
       "pronunciation": "Idhaa jaa'a nasrullah",
       "meaning": "When the help of Allah comes"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 86,
@@ -1233,7 +1318,8 @@
       "arabic": "خَلَقَ الْإِنْسَانَ",
       "pronunciation": "Khalaqal-insaan",
       "meaning": "He created man"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 87,
@@ -1248,7 +1334,8 @@
       "arabic": "ذَكَرَ اللهَ",
       "pronunciation": "Zakara Allah",
       "meaning": "He remembered Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 88,
@@ -1263,7 +1350,8 @@
       "arabic": "عَبَدَ اللهَ",
       "pronunciation": "'Abada Allah",
       "meaning": "He worshipped Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 89,
@@ -1278,7 +1366,8 @@
       "arabic": "عَلَى كُلِّ شَيْءٍ قَدِير",
       "pronunciation": "'Alaa kulli shay'in qadeer",
       "meaning": "Powerful over all things"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 90,
@@ -1293,7 +1382,8 @@
       "arabic": "ضَرَبَ اللهُ عَدُوّه",
       "pronunciation": "Daraba Allah 'aduwwahu",
       "meaning": "He struck his enemy"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 91,
@@ -1308,7 +1398,8 @@
       "arabic": "سَمِعَ اللهُ لِمَنْ حَمِدَه",
       "pronunciation": "Sami'al-lahu liman hamidah",
       "meaning": "Allah listens to the one who praises Him"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 92,
@@ -1323,7 +1414,8 @@
       "arabic": "عَلِمَ اللهُ كُلَّ شَيْءٍ",
       "pronunciation": "'Alimal-lahu kulli shay'in",
       "meaning": "Allah knows everything"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 93,
@@ -1338,7 +1430,8 @@
       "arabic": "عَمِلَ اللهُ كُلَّ شَيْءٍ",
       "pronunciation": "'Amilal-lahu kulli shay'in",
       "meaning": "Allah did everything"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 94,
@@ -1353,7 +1446,8 @@
       "arabic": "هَذَا حَدِيثٌ صَحِيح",
       "pronunciation": "Haadha hadeethun saheeh",
       "meaning": "This is a correct statement"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 95,
@@ -1368,7 +1462,8 @@
       "arabic": "لَا إِلَهَ إِلَّا الله",
       "pronunciation": "Laa ilaaha illallah",
       "meaning": "There is no god but Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 96,
@@ -1383,7 +1478,8 @@
       "arabic": "صَدْرُ الْإِنْسَان",
       "pronunciation": "Sadru al-insaan",
       "meaning": "The chest of the human"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 97,
@@ -1398,7 +1494,8 @@
       "arabic": "مَلَكُ الله",
       "pronunciation": "Malakul-lah",
       "meaning": "The angel of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 98,
@@ -1413,7 +1510,8 @@
       "arabic": "جَنَّةُ الله",
       "pronunciation": "Jannatul-lah",
       "meaning": "The Jinn of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 99,
@@ -1427,7 +1525,8 @@
       "arabic": "يَا أَيُّهَا النَّاس",
       "pronunciation": "Yaa ayyuhal-naas",
       "meaning": "O people"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 100,
@@ -1442,7 +1541,8 @@
       "arabic": "يَا قَوْمِ اعْبُدُوا الله",
       "pronunciation": "Yaa qawmi'-budul-lah",
       "meaning": "O my people, worship Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 101,
@@ -1456,7 +1556,8 @@
       "arabic": "يَا أَيُّهَا النَّاس",
       "pronunciation": "Yaa ayyuhal-naas",
       "meaning": "O people"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 102,
@@ -1470,7 +1571,8 @@
       "arabic": "أُرِيدُ أَنْ أَتَعَلَّم",
       "pronunciation": "Ureedu an ata'allam",
       "meaning": "I want to (that I) learn"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 103,
@@ -1484,7 +1586,8 @@
       "arabic": "أَعْلَمُ أَنَّ اللهَ كَرِيم",
       "pronunciation": "A'lamu anna-llaha kareem",
       "meaning": "I know that Allah is generous"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 104,
@@ -1499,7 +1602,8 @@
       "arabic": "مُحَمَّدٌ رَسُولُ الله",
       "pronunciation": "Muhammadun Rasoolul-lah",
       "meaning": "Muhammad is the Messenger of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 105,
@@ -1514,7 +1618,8 @@
       "arabic": "رَسُولُ الله",
       "pronunciation": "Rasoolul-lah",
       "meaning": "The Messenger of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 106,
@@ -1528,7 +1633,8 @@
       "arabic": "الصَّلَاةُ خَيْرٌ مِنَ النَّوْم",
       "pronunciation": "As-salatu khayrun minan-nawm",
       "meaning": "The prayer is better than sleep"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 107,
@@ -1543,7 +1649,8 @@
       "arabic": "لَا شَرِيكَ لَهُ",
       "pronunciation": "Laa shareeka lahu",
       "meaning": "He has no partner"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 108,
@@ -1557,7 +1664,8 @@
       "arabic": "مَاذَا تَفْعَلُ؟",
       "pronunciation": "Maa'aa taf'alu?",
       "meaning": "What are you doing?"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 109,
@@ -1572,7 +1680,8 @@
       "arabic": "سُبْحَانَ الله",
       "pronunciation": "Subhaanal-lah",
       "meaning": "Glory be to Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 110,
@@ -1587,7 +1696,8 @@
       "arabic": "اللهُ الْعَظِيم",
       "pronunciation": "Allahu Al-azeem",
       "meaning": "Allah is the Great"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 111,
@@ -1602,7 +1712,8 @@
       "arabic": "الطَّيِّبَاتُ لِلْمُؤْمِنِينَ",
       "pronunciation": "At-tayyibaatu lil-mu'mineen",
       "meaning": "Good things are for the believers"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 112,
@@ -1617,7 +1728,8 @@
       "arabic": "السَّلَامُ عَلَيْكُمْ",
       "pronunciation": "As-salaamu 'alaykum",
       "meaning": "Peace be upon you"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 113,
@@ -1632,7 +1744,8 @@
       "arabic": "النَّبِيُّ مُحَمَّدٌ",
       "pronunciation": "An-nabiyyu Muhammadun",
       "meaning": "The Prophet Muhammad"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 114,
@@ -1647,7 +1760,8 @@
       "arabic": "رَحْمَةُ الله",
       "pronunciation": "Rahmatul-lah",
       "meaning": "The Mercy of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 115,
@@ -1662,7 +1776,8 @@
       "arabic": "عِبَادُ الله",
       "pronunciation": "Ibaadul-lah",
       "meaning": "The slaves/servants of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 116,
@@ -1676,7 +1791,8 @@
       "arabic": "سَوْفَ أَذْهَبُ",
       "pronunciation": "Sawfa adhhab",
       "meaning": "I will go soon"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 117,
@@ -1690,7 +1806,8 @@
       "arabic": "إِبْرَاهِيمُ رَسُولُ الله",
       "pronunciation": "Ibraaheem Rasoolul-lah",
       "meaning": "Ibrahim is the Messenger of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 118,
@@ -1705,7 +1822,8 @@
       "arabic": "نَفْسُ الْإِنْسَان",
       "pronunciation": "Nafsu al-insaan",
       "meaning": "The soul of the human"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 119,
@@ -1720,7 +1838,8 @@
       "arabic": "كَثِيرٌ مِنَ النَّاس",
       "pronunciation": "Katheerun minan-naas",
       "meaning": "Many of the people"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 120,
@@ -1735,7 +1854,8 @@
       "arabic": "الذُّنُوبُ كَثِيرَة",
       "pronunciation": "Az-zunoobu katheerah",
       "meaning": "The sins are many"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 121,
@@ -1750,7 +1870,8 @@
       "arabic": "اللهُ غَفُورٌ رَحِيمٌ",
       "pronunciation": "Allahu Ghafoorun Raheemun",
       "meaning": "Allah is Oft-Forgiving, Most Merciful"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 122,
@@ -1765,7 +1886,8 @@
       "arabic": "حَيَاةُ الدُّنْيَا",
       "pronunciation": "Hayaatud-dunya",
       "meaning": "The life of the world"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 123,
@@ -1780,7 +1902,8 @@
       "arabic": "حَيَاةُ الْآخِرَةِ",
       "pronunciation": "Hayaatul-aakhirah",
       "meaning": "The life of the Hereafter"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 124,
@@ -1795,7 +1918,8 @@
       "arabic": "عَذَابُ الله",
       "pronunciation": "Azaabul-lah",
       "meaning": "The punishment of Allah"
-    }
+    },
+    "difficult": false
   },
   {
     "word_id": 125,
@@ -1810,6 +1934,7 @@
       "arabic": "النَّارُ حَرِيقٌ",
       "pronunciation": "An-naar harriqun",
       "meaning": "The Fire is burning"
-    }
+    },
+    "difficult": false
   }
 ]
