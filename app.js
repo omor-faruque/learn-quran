@@ -1,6 +1,32 @@
 let FREQUENT_WORDS = [];
 let MAX_OCC = 0;
 
+/* ============ difficult words (tagging) ============ */
+const DIFFICULT_STORAGE_KEY = 'lq_difficult_word_ids';
+
+function loadDifficultIds(){
+  try{
+    const raw = localStorage.getItem(DIFFICULT_STORAGE_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch(err){
+    console.error('Failed to read difficult words from storage', err);
+    return new Set();
+  }
+}
+function saveDifficultIds(ids){
+  localStorage.setItem(DIFFICULT_STORAGE_KEY, JSON.stringify([...ids]));
+}
+let difficultIds = loadDifficultIds();
+
+function isDifficult(word){
+  return difficultIds.has(word.word_id) || word.difficult === true;
+}
+function setDifficult(word, flag){
+  if(flag) difficultIds.add(word.word_id);
+  else difficultIds.delete(word.word_id);
+  saveDifficultIds(difficultIds);
+}
+
 /* ============ helpers ============ */
 function shuffle(arr){
   const a = arr.slice();
@@ -65,6 +91,8 @@ const els = {
   detailsTitle: document.getElementById('details-title'),
   detailsImage: document.getElementById('details-image'),
   detailsCaption: document.getElementById('details-caption'),
+  starBtn: document.getElementById('star-btn'),
+  difficultPill: document.getElementById('difficult-pill'),
 };
 
 let detailsOpen = false;
@@ -73,7 +101,11 @@ let detailsOpen = false;
 function applyFilter(type){
   activeType = type;
   document.querySelectorAll('.filter-pill').forEach(p => p.classList.toggle('active', p.dataset.type === type));
-  const words = type === 'All' ? FREQUENT_WORDS.slice() : FREQUENT_WORDS.filter(w => w.type === type);
+  const words = type === 'All'
+    ? FREQUENT_WORDS.slice()
+    : type === 'Difficult'
+      ? FREQUENT_WORDS.filter(w => isDifficult(w))
+      : FREQUENT_WORDS.filter(w => w.type === type);
   filteredWords = sortWords(words);
   currentIndex = 0;
   buildDatalist();
@@ -180,6 +212,7 @@ function renderCard(){
   els.prevBtn.disabled = currentIndex === 0;
   els.nextBtn.disabled = currentIndex === filteredWords.length - 1;
   els.detailsBtn.disabled = !w.image;
+  updateStarBtn(w);
   if(w.example){
     els.exArabic.textContent = w.example.arabic;
     els.exPronunciation.textContent = w.example.pronunciation;
@@ -192,6 +225,25 @@ function renderCard(){
   updateProgress();
   requestAnimationFrame(syncCardHeight);
 }
+
+function updateStarBtn(word){
+  const marked = isDifficult(word);
+  els.starBtn.textContent = marked ? '★ Marked difficult' : '☆ Mark difficult';
+  els.starBtn.classList.toggle('primary', marked);
+}
+
+function toggleDifficultCurrent(){
+  if(filteredWords.length === 0) return;
+  const word = filteredWords[currentIndex];
+  const marked = !isDifficult(word);
+  setDifficult(word, marked);
+  if(activeType === 'Difficult' && !marked){
+    applyFilter('Difficult');
+  } else {
+    updateStarBtn(word);
+  }
+}
+els.starBtn.addEventListener('click', toggleDifficultCurrent);
 
 function updateDetailsContent(word){
   els.detailsTitle.textContent = `${word.transliteration} — ${word.translation}`;
