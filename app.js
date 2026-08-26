@@ -208,7 +208,12 @@ function renderCard(){
   els.freqFill.style.width = '0%';
   requestAnimationFrame(() => { els.freqFill.style.width = freqPct + '%'; });
 
+  // reset to front face instantly, without the reverse-flip animation
+  els.flipCard.classList.add('no-flip-anim');
   els.flipCard.classList.remove('flipped');
+  void els.flipCard.offsetWidth;
+  els.flipCard.classList.remove('no-flip-anim');
+
   els.prevBtn.disabled = currentIndex === 0;
   els.nextBtn.disabled = currentIndex === filteredWords.length - 1;
   els.detailsBtn.disabled = !w.image;
@@ -229,7 +234,7 @@ function renderCard(){
 function updateStarBtn(word){
   const marked = isDifficult(word);
   els.starBtn.textContent = marked ? '★ Marked difficult' : '☆ Mark difficult';
-  els.starBtn.classList.toggle('primary', marked);
+  els.starBtn.classList.toggle('active', marked);
 }
 
 function toggleDifficultCurrent(){
@@ -277,9 +282,8 @@ function closeDetails(){
 const frontFace = document.querySelector('.face.front');
 const backFace = document.querySelector('.face.back');
 function syncCardHeight(){
-  const showingBack = els.flipCard.classList.contains('flipped');
-  const activeFace = showingBack ? backFace : frontFace;
-  const h = Math.max(activeFace.scrollHeight, 240);
+  // size for the taller face so flipping never resizes the card
+  const h = Math.max(frontFace.scrollHeight, backFace.scrollHeight, 240);
   els.flipCard.style.height = h + 'px';
 }
 function toggleFlip(){
