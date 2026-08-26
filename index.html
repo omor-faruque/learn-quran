@@ -26,19 +26,23 @@
   </div>
 
   <div class="toolbar">
-    <button class="filter-pill active" data-type="All" type="button">All</button>
-    <button class="filter-pill" data-type="Noun" type="button">Noun</button>
-    <button class="filter-pill" data-type="Verb" type="button">Verb</button>
-    <button class="filter-pill" data-type="Particle" type="button">Particle</button>
-    <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
-    <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
-    <label class="sort-control" for="sort-select">Order
-      <select id="sort-select">
-        <option value="default">Default order</option>
-        <option value="occurrences">Most occurrences first</option>
-      </select>
-    </label>
-    <datalist id="word-list"></datalist>
+    <div class="filter-group">
+      <button class="filter-pill active" data-type="All" type="button">All</button>
+      <button class="filter-pill" data-type="Noun" type="button">Noun</button>
+      <button class="filter-pill" data-type="Verb" type="button">Verb</button>
+      <button class="filter-pill" data-type="Particle" type="button">Particle</button>
+      <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
+    </div>
+    <div class="toolbar-controls">
+      <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
+      <label class="sort-control" for="sort-select">Order
+        <select id="sort-select">
+          <option value="default">Default order</option>
+          <option value="occurrences">Most occurrences first</option>
+        </select>
+      </label>
+      <datalist id="word-list"></datalist>
+    </div>
   </div>
 
   <div class="stage">
@@ -125,11 +129,15 @@
     </div>
 
     <div class="nav-row" id="learn-nav">
-      <button class="nav-btn" id="prev-btn" type="button">← Prev</button>
-      <button class="nav-btn primary" id="flip-btn" type="button">Flip</button>
-      <button class="nav-btn" id="details-btn" type="button">Details</button>
-      <button class="nav-btn" id="star-btn" type="button">☆ Mark difficult</button>
-      <button class="nav-btn" id="next-btn" type="button">Next →</button>
+      <div class="nav-row-primary">
+        <button class="nav-btn icon-btn" id="prev-btn" type="button" aria-label="Previous word">←</button>
+        <button class="nav-btn primary" id="flip-btn" type="button">Flip</button>
+        <button class="nav-btn icon-btn" id="next-btn" type="button" aria-label="Next word">→</button>
+      </div>
+      <div class="nav-row-secondary">
+        <button class="nav-btn ghost" id="details-btn" type="button">Details</button>
+        <button class="nav-btn ghost" id="star-btn" type="button">☆ Mark difficult</button>
+      </div>
     </div>
   </div>
 
