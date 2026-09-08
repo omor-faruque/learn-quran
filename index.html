@@ -129,7 +129,13 @@
 
         <!-- READ QURAN MODE -->
         <div class="read-wrap" id="read-wrap" style="display:none;">
-          <div class="read-lastread" id="read-lastread" style="display:none;"></div>
+          <div class="read-heading">
+            <div>
+              <div class="read-kicker">Qur'an reader</div>
+              <h2 class="read-title">Read and reflect</h2>
+            </div>
+            <div class="read-status" id="read-status">Page 1</div>
+          </div>
           <div class="read-parts" id="read-parts">
             <button class="part-btn active" data-part="1" type="button">Part 1</button>
             <button class="part-btn" data-part="2" type="button">Part 2</button>
@@ -141,6 +147,10 @@
             <div class="read-loading" id="read-loading">Loading page…</div>
           </div>
           <div class="read-nav">
+            <span class="read-nav-label">Jump to</span>
+            <button class="nav-btn ghost" id="read-beginning" type="button">Beginning</button>
+            <button class="nav-btn ghost" id="read-middle" type="button">Middle</button>
+            <button class="nav-btn ghost" id="read-end" type="button">End</button>
             <button class="nav-btn ghost" id="resume-btn" type="button" disabled>↩ Resume last read</button>
           </div>
           <p class="read-hint">Tap anywhere on a page to save it as your last read spot. Scroll to keep reading.</p>
