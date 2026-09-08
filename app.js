@@ -581,9 +581,12 @@ if(window.pdfjsLib){
 
 const readEls = {
   wrap: document.getElementById('read-wrap'),
+  status: document.getElementById('read-status'),
   parts: document.getElementById('read-parts'),
+  beginningBtn: document.getElementById('read-beginning'),
+  middleBtn: document.getElementById('read-middle'),
+  endBtn: document.getElementById('read-end'),
   resumeBtn: document.getElementById('resume-btn'),
-  lastReadBanner: document.getElementById('read-lastread'),
   scroll: document.getElementById('read-scroll'),
   loading: document.getElementById('read-loading'),
 };
@@ -613,18 +616,10 @@ function loadLastRead(){
 }
 function saveLastRead(entry){
   localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(entry));
-  renderLastReadBanner();
+  updateResumeButton();
 }
-function renderLastReadBanner(){
-  const last = loadLastRead();
-  if(!last){
-    readEls.lastReadBanner.style.display = 'none';
-    readEls.resumeBtn.disabled = true;
-    return;
-  }
-  readEls.resumeBtn.disabled = false;
-  readEls.lastReadBanner.style.display = 'block';
-  readEls.lastReadBanner.textContent = `Last read: Part ${last.part}, page ${last.page}`;
+function updateResumeButton(){
+  readEls.resumeBtn.disabled = !loadLastRead();
 }
 
 function getPdfDoc(part){
@@ -662,11 +657,13 @@ function hideMarker(){
 
 function setCurrentPage(num){
   currentVisiblePage = num;
+  readEls.status.textContent = pdfPageCount ? `Page ${num} of ${pdfPageCount}` : `Page ${num}`;
 }
 
 async function openPart(part, initialPage, markerYRatio){
   currentPart = part;
   partLoading = true;
+  readEls.status.textContent = 'Loading pages…';
   document.querySelectorAll('.part-btn').forEach(b => b.classList.toggle('active', Number(b.dataset.part) === part));
   if(pageObserver) pageObserver.disconnect();
   readEls.scroll.querySelectorAll('.read-page').forEach(n => n.remove());
@@ -791,6 +788,20 @@ readEls.parts.querySelectorAll('.part-btn').forEach(btn => {
   btn.addEventListener('click', () => openPart(Number(btn.dataset.part)));
 });
 
+function goToPartPosition(position){
+  if(!pdfDoc || !pdfPageCount) return;
+  const page = position === 'beginning'
+    ? 1
+    : position === 'middle'
+      ? Math.ceil(pdfPageCount / 2)
+      : pdfPageCount;
+  scrollToPage(page);
+}
+
+readEls.beginningBtn.addEventListener('click', () => goToPartPosition('beginning'));
+readEls.middleBtn.addEventListener('click', () => goToPartPosition('middle'));
+readEls.endBtn.addEventListener('click', () => goToPartPosition('end'));
+
 readEls.resumeBtn.addEventListener('click', () => {
   const last = loadLastRead();
   if(!last) return;
@@ -810,7 +821,7 @@ window.addEventListener('resize', () => {
   }
 });
 
-renderLastReadBanner();
+updateResumeButton();
 
 /* ============ data + init ============ */
 async function loadWords(){
