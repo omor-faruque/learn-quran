@@ -14,34 +14,44 @@
 
 <div class="wrap">
 
-  <header>
-    <div class="eyebrow">Flashcards &amp; Quiz</div>
-    <h1>Learn Quranic Vocabulary</h1>
-    <p class="subhead" id="subhead">the key to the most frequent words of the Qur'an</p>
-  </header>
-
-  <div class="mode-toggle">
-    <button class="mode-btn active" id="btn-learn" type="button">Learn</button>
-    <button class="mode-btn" id="btn-test" type="button">Test Yourself</button>
+  <div class="mobile-menu-bar">
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span>Menu</span>
+    </button>
   </div>
 
-  <div class="toolbar">
-    <div class="filter-group">
-      <button class="filter-pill active" data-type="All" type="button">All</button>
-      <button class="filter-pill" data-type="Noun" type="button">Noun</button>
-      <button class="filter-pill" data-type="Verb" type="button">Verb</button>
-      <button class="filter-pill" data-type="Particle" type="button">Particle</button>
-      <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
+  <div class="mobile-menu" id="mobile-menu">
+    <header>
+      <div class="eyebrow">Flashcards &amp; Quiz</div>
+      <h1>Learn Quranic Vocabulary</h1>
+      <p class="subhead" id="subhead">the key to the most frequent words of the Qur'an</p>
+    </header>
+
+    <div class="mode-toggle">
+      <button class="mode-btn active" id="btn-learn" type="button">Learn</button>
+      <button class="mode-btn" id="btn-test" type="button">Test Yourself</button>
+      <button class="mode-btn" id="btn-read" type="button">Read Qur'an</button>
     </div>
-    <div class="toolbar-controls">
-      <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
-      <label class="sort-control" for="sort-select">Order
-        <select id="sort-select">
-          <option value="default">Default order</option>
-          <option value="occurrences">Most occurrences first</option>
-        </select>
-      </label>
-      <datalist id="word-list"></datalist>
+
+    <div class="toolbar">
+      <div class="filter-group">
+        <button class="filter-pill active" data-type="All" type="button">All</button>
+        <button class="filter-pill" data-type="Noun" type="button">Noun</button>
+        <button class="filter-pill" data-type="Verb" type="button">Verb</button>
+        <button class="filter-pill" data-type="Particle" type="button">Particle</button>
+        <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
+      </div>
+      <div class="toolbar-controls">
+        <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
+        <label class="sort-control" for="sort-select">Order
+          <select id="sort-select">
+            <option value="default">Default order</option>
+            <option value="occurrences">Most occurrences first</option>
+          </select>
+        </label>
+        <datalist id="word-list"></datalist>
+      </div>
     </div>
   </div>
 
@@ -117,6 +127,25 @@
 
         <div class="empty-state" id="empty-state" style="display:none;">No words match this filter yet.</div>
 
+        <!-- READ QURAN MODE -->
+        <div class="read-wrap" id="read-wrap" style="display:none;">
+          <div class="read-lastread" id="read-lastread" style="display:none;"></div>
+          <div class="read-parts" id="read-parts">
+            <button class="part-btn active" data-part="1" type="button">Part 1</button>
+            <button class="part-btn" data-part="2" type="button">Part 2</button>
+            <button class="part-btn" data-part="3" type="button">Part 3</button>
+            <button class="part-btn" data-part="4" type="button">Part 4</button>
+            <button class="part-btn" data-part="5" type="button">Part 5</button>
+          </div>
+          <div class="read-scroll" id="read-scroll">
+            <div class="read-loading" id="read-loading">Loading page…</div>
+          </div>
+          <div class="read-nav">
+            <button class="nav-btn ghost" id="resume-btn" type="button" disabled>↩ Resume last read</button>
+          </div>
+          <p class="read-hint">Tap anywhere on a page to save it as your last read spot. Scroll to keep reading.</p>
+        </div>
+
       </div>
     </div>
 
@@ -156,6 +185,7 @@
 
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
