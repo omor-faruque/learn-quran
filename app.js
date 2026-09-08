@@ -745,7 +745,8 @@ function renderPageCanvas(pageNum){
     const scale = (containerWidth / baseViewport.width) * PDF_ZOOM;
     const viewport = page.getViewport({ scale });
     const ctx = entry.canvas.getContext('2d');
-    const outputScale = Math.min(window.devicePixelRatio || 1, 2);
+    const deviceScale = window.devicePixelRatio || 1;
+    const outputScale = Math.min(Math.max(deviceScale, 2), 3);
     entry.canvas.width = Math.floor(viewport.width * outputScale);
     entry.canvas.height = Math.floor(viewport.height * outputScale);
     entry.canvas.style.width = `${viewport.width}px`;
