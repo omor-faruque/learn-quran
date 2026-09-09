@@ -75,6 +75,7 @@ const els = {
   btnLearn: document.getElementById('btn-learn'),
   btnTest: document.getElementById('btn-test'),
   btnRead: document.getElementById('btn-read'),
+  btnLastRead: document.getElementById('btn-last-read'),
   emptyState: document.getElementById('empty-state'),
   progressTrack: document.getElementById('progress-track'),
   progressFill: document.getElementById('progress-fill'),
@@ -570,6 +571,21 @@ function setMode(mode){
 els.btnLearn.addEventListener('click', () => setMode('learn'));
 els.btnTest.addEventListener('click', () => setMode('test'));
 els.btnRead.addEventListener('click', () => setMode('read'));
+els.btnLastRead.addEventListener('click', () => {
+  const last = loadLastRead();
+  if(!last) return;
+  setMode('read');
+  setTimeout(() => {
+    if(last.part === currentPart && pageEntries.length){
+      scrollToPage(last.page, last.yRatio);
+    } else if(partLoading && last.part === currentPart){
+      pendingResume = last;
+    } else {
+      openPart(last.part);
+      pendingResume = last;
+    }
+  }, 100);
+});
 
 /* ============ read quran mode (PDF viewer + last read) ============ */
 const READ_STORAGE_KEY = 'lq_last_read';
@@ -620,6 +636,7 @@ function saveLastRead(entry){
 }
 function updateResumeButton(){
   readEls.resumeBtn.disabled = !loadLastRead();
+  els.btnLastRead.style.display = loadLastRead() ? 'block' : 'none';
 }
 
 function getPdfDoc(part){
