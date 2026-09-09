@@ -28,29 +28,32 @@
       <p class="subhead" id="subhead">the key to the most frequent words of the Qur'an</p>
     </header>
 
-    <div class="mode-toggle">
-      <button class="mode-btn active" id="btn-learn" type="button">Learn</button>
-      <button class="mode-btn" id="btn-test" type="button">Test Yourself</button>
-      <button class="mode-btn" id="btn-read" type="button">Read Qur'an</button>
-    </div>
+    <nav class="primary-nav">
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btn-learn" type="button" aria-label="Learn mode">Learn</button>
+        <button class="mode-btn" id="btn-test" type="button" aria-label="Test yourself mode">Test Yourself</button>
+        <button class="mode-btn" id="btn-read" type="button" aria-label="Read Qur'an mode">Read Qur'an</button>
+      </div>
+    </nav>
 
     <div class="toolbar">
-      <div class="filter-group">
-        <button class="filter-pill active" data-type="All" type="button">All</button>
-        <button class="filter-pill" data-type="Noun" type="button">Noun</button>
-        <button class="filter-pill" data-type="Verb" type="button">Verb</button>
-        <button class="filter-pill" data-type="Particle" type="button">Particle</button>
-        <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
-      </div>
-      <div class="toolbar-controls">
+      <div class="toolbar-top">
         <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
-        <label class="sort-control" for="sort-select">Order
+        <label class="sort-control" for="sort-select">
           <select id="sort-select">
             <option value="default">Default order</option>
             <option value="occurrences">Most occurrences first</option>
           </select>
         </label>
         <datalist id="word-list"></datalist>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Filter by type:</span>
+        <button class="filter-pill active" data-type="All" type="button">All</button>
+        <button class="filter-pill" data-type="Noun" type="button">Noun</button>
+        <button class="filter-pill" data-type="Verb" type="button">Verb</button>
+        <button class="filter-pill" data-type="Particle" type="button">Particle</button>
+        <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
       </div>
     </div>
   </div>
@@ -192,6 +195,10 @@
   </div>
 
   <footer>ﷺ &nbsp;grow this list as your memorization grows&nbsp; ﷺ</footer>
+
+  <button class="fab last-read-btn" id="btn-last-read" type="button" style="display:none;" aria-label="Resume last read position" title="Return to last read position">
+    <span class="fab-icon">↩</span>
+  </button>
 
 </div>
 
