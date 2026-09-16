@@ -647,9 +647,9 @@
     "type": "Particle",
     "image": "042-Law.jpg",
     "example": {
-      "arabic": "لَوْ كَانَ هُنَا",
-      "pronunciation": "Law kaana hunaa",
-      "meaning": "If he were here"
+      "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+      "pronunciation": "Kallaa law ta'lamoona 'ilmal-yaqeen",
+      "meaning": "No! If you only knew with certainty"
     },
     "difficult": false
   },
@@ -657,14 +657,14 @@
     "word_id": 43,
     "arabic": "ل",
     "transliteration": "li",
-    "translation": "for",
+    "translation": "for / to",
     "occurrences": 1361,
     "type": "Particle",
     "image": "043-li.jpg",
     "example": {
-      "arabic": "هَذَا لَكَ",
-      "pronunciation": "Haadha laka",
-      "meaning": "This is for you"
+      "arabic": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "pronunciation": "Fasalli lirabbika wanhar",
+      "meaning": "So pray to your Lord and sacrifice"
     },
     "difficult": false
   },
@@ -687,14 +687,14 @@
     "word_id": 45,
     "arabic": "عَنْ",
     "transliteration": "'an",
-    "translation": "with",
+    "translation": "from / off / away from",
     "occurrences": 416,
     "type": "Particle",
     "image": "045-'an.jpg",
     "example": {
-      "arabic": "رَضِيَ اللهُ عَنْه",
-      "pronunciation": "Radiyallahu 'anh",
-      "meaning": "May Allah be pleased with him"
+      "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+      "pronunciation": "Maa aghnaa 'anhu maaluhu wa maa kasab",
+      "meaning": "His wealth will not benefit him, nor will it ward off punishment from him."
     },
     "difficult": false
   },
