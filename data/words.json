@@ -687,7 +687,7 @@
     "word_id": 45,
     "arabic": "عَنْ",
     "transliteration": "'an",
-    "translation": "from / off / away from",
+    "translation": "off / away from",
     "occurrences": 416,
     "type": "Particle",
     "image": "045-'an.jpg",
@@ -707,9 +707,9 @@
     "type": "Particle",
     "image": "046-laqad.jpg",
     "example": {
-      "arabic": "لَقَدْ جِئْت",
-      "pronunciation": "Laqad ji't",
-      "meaning": "Certainly I came"
+      "arabic": "لَقَدْ خَلَقْنَا الْإِنسَانَ",
+      "pronunciation": "Laqad khalaqnal-insaan",
+      "meaning": "Certainly We have created man"
     },
     "difficult": false
   },
