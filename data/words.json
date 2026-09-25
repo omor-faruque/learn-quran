@@ -738,9 +738,9 @@
     "type": "Particle",
     "image": "048-'in.jpg",
     "example": {
-      "arabic": "إِنْ تَنْصُرُوا الله",
-      "pronunciation": "In tansurullah",
-      "meaning": "If you help Allah"
+      "arabic": "إن شاء الله",
+      "pronunciation": "In shaa Allah",
+      "meaning": "If Allah wills"
     },
     "difficult": false
   },
@@ -754,9 +754,9 @@
     "root": "شيء",
     "image": "049-shaa'a.jpg",
     "example": {
-      "arabic": "شَاءَ الله",
-      "pronunciation": "Shaa'allah",
-      "meaning": "Allah willed"
+      "arabic": "إن شاء الله",
+      "pronunciation": "In shaa Allah",
+      "meaning": "If Allah wills"
     },
     "difficult": false
   },
