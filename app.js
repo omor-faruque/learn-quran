@@ -72,6 +72,7 @@ const els = {
   quizWrap: document.getElementById('quiz-wrap'),
   learnNav: document.getElementById('learn-nav'),
   learnProgress: document.getElementById('learn-progress'),
+  toolbar: document.getElementById('toolbar'),
   btnLearn: document.getElementById('btn-learn'),
   btnTest: document.getElementById('btn-test'),
   btnRead: document.getElementById('btn-read'),
@@ -543,6 +544,7 @@ function setMode(mode){
   els.btnRead.classList.toggle('active', mode === 'read');
   els.quizWrap.classList.toggle('active', mode === 'test');
   readEls.wrap.style.display = mode === 'read' ? 'block' : 'none';
+  els.toolbar.style.display = mode === 'read' ? 'none' : '';
   setMobileMenu(mode !== 'read');
   if(mode === 'learn'){
     els.quizWrap.style.display = 'none';
