@@ -75,8 +75,6 @@ const els = {
   toolbar: document.getElementById('toolbar'),
   btnLearn: document.getElementById('btn-learn'),
   btnTest: document.getElementById('btn-test'),
-  btnRead: document.getElementById('btn-read'),
-  btnLastRead: document.getElementById('btn-last-read'),
   emptyState: document.getElementById('empty-state'),
   progressTrack: document.getElementById('progress-track'),
   progressFill: document.getElementById('progress-fill'),
@@ -96,22 +94,9 @@ const els = {
   detailsCaption: document.getElementById('details-caption'),
   starBtn: document.getElementById('star-btn'),
   difficultPill: document.getElementById('difficult-pill'),
-  mobileMenu: document.getElementById('mobile-menu'),
-  mobileMenuToggle: document.getElementById('mobile-menu-toggle'),
 };
 
 let detailsOpen = false;
-let mobileMenuOpen = false;
-
-function setMobileMenu(open){
-  mobileMenuOpen = currentMode !== 'read' || open;
-  els.mobileMenu.classList.toggle('open', mobileMenuOpen);
-  els.mobileMenu.classList.toggle('read-menu', currentMode === 'read');
-  els.mobileMenuToggle.parentElement.classList.toggle('read-menu-active', currentMode === 'read');
-  els.mobileMenuToggle.setAttribute('aria-expanded', String(mobileMenuOpen));
-}
-
-els.mobileMenuToggle.addEventListener('click', () => setMobileMenu(!mobileMenuOpen));
 
 /* ============ filtering ============ */
 function applyFilter(type){
@@ -329,6 +314,7 @@ document.addEventListener('keydown', (e) => {
   }
   if(currentMode !== 'learn') return;
   if(document.activeElement === els.searchBox) return;
+  if(document.activeElement.closest('a, button, input, select, summary')) return;
   if(e.key === 'ArrowRight') goTo(currentIndex + 1);
   if(e.key === 'ArrowLeft') goTo(currentIndex - 1);
   if(e.key === ' '){ e.preventDefault(); toggleFlip(); }
@@ -541,11 +527,7 @@ function setMode(mode){
   currentMode = mode;
   els.btnLearn.classList.toggle('active', mode === 'learn');
   els.btnTest.classList.toggle('active', mode === 'test');
-  els.btnRead.classList.toggle('active', mode === 'read');
   els.quizWrap.classList.toggle('active', mode === 'test');
-  readEls.wrap.style.display = mode === 'read' ? 'block' : 'none';
-  els.toolbar.style.display = mode === 'read' ? 'none' : '';
-  setMobileMenu(mode !== 'read');
   if(mode === 'learn'){
     els.quizWrap.style.display = 'none';
     els.detailsBtn.style.display = 'flex';
@@ -559,288 +541,10 @@ function setMode(mode){
     els.emptyState.style.display = 'none';
     resetQuizRangeToFullSet();
     startQuiz();
-  } else {
-    closeDetails();
-    els.learnWrap.style.display = 'none';
-    els.learnNav.style.display = 'none';
-    els.learnProgress.style.display = 'none';
-    els.detailsBtn.style.display = 'none';
-    els.quizWrap.style.display = 'none';
-    els.emptyState.style.display = 'none';
-    if(!pdfDoc) openPart(currentPart);
   }
 }
 els.btnLearn.addEventListener('click', () => setMode('learn'));
 els.btnTest.addEventListener('click', () => setMode('test'));
-els.btnRead.addEventListener('click', () => setMode('read'));
-els.btnLastRead.addEventListener('click', () => {
-  const last = loadLastRead();
-  if(!last) return;
-  setMode('read');
-  setTimeout(() => {
-    if(last.part === currentPart && pageEntries.length){
-      scrollToPage(last.page, last.yRatio);
-    } else if(partLoading && last.part === currentPart){
-      pendingResume = last;
-    } else {
-      openPart(last.part);
-      pendingResume = last;
-    }
-  }, 100);
-});
-
-/* ============ read quran mode (PDF viewer + last read) ============ */
-const READ_STORAGE_KEY = 'lq_last_read';
-const PDF_CACHE_NAME = 'learn-quran-pdfs-v1';
-
-if(window.pdfjsLib){
-  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-}
-
-const readEls = {
-  wrap: document.getElementById('read-wrap'),
-  status: document.getElementById('read-status'),
-  parts: document.getElementById('read-parts'),
-  beginningBtn: document.getElementById('read-beginning'),
-  middleBtn: document.getElementById('read-middle'),
-  endBtn: document.getElementById('read-end'),
-  resumeBtn: document.getElementById('resume-btn'),
-  scroll: document.getElementById('read-scroll'),
-  loading: document.getElementById('read-loading'),
-};
-
-const pdfDocCache = {};
-let currentPart = 1;
-let pdfDoc = null;
-let pdfPageCount = 0;
-let currentVisiblePage = 1;
-let pageEntries = []; // { container, canvas, rendered, rendering, pageNum }
-let pageObserver = null;
-let partLoading = false;
-let pendingResume = null;
-const PDF_ZOOM = 1.18;
-const readMarker = document.createElement('div');
-readMarker.className = 'read-marker';
-readMarker.style.display = 'none';
-
-function loadLastRead(){
-  try{
-    const raw = localStorage.getItem(READ_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch(err){
-    console.error('Failed to read last-read position from storage', err);
-    return null;
-  }
-}
-function saveLastRead(entry){
-  localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(entry));
-  updateResumeButton();
-}
-function updateResumeButton(){
-  readEls.resumeBtn.disabled = !loadLastRead();
-  els.btnLastRead.style.display = loadLastRead() ? 'block' : 'none';
-}
-
-function getPdfDoc(part){
-  if(pdfDocCache[part]) return pdfDocCache[part];
-  const url = `data/Arabic-Bang-${part}.pdf`;
-  const task = loadCachedPdf(url);
-  pdfDocCache[part] = task;
-  return task;
-}
-
-async function loadCachedPdf(url){
-  if(!('caches' in window)) return pdfjsLib.getDocument(url).promise;
-
-  const cache = await caches.open(PDF_CACHE_NAME);
-  let response = await cache.match(url);
-  if(!response){
-    response = await fetch(url);
-    if(!response.ok) throw new Error(`Failed to load PDF (${response.status})`);
-    await cache.put(url, response.clone());
-  }
-  const data = await response.arrayBuffer();
-  return pdfjsLib.getDocument({ data: new Uint8Array(data) }).promise;
-}
-
-function placeMarker(pageNum, yRatio){
-  const entry = pageEntries[pageNum - 1];
-  if(!entry) return;
-  entry.container.appendChild(readMarker);
-  readMarker.style.display = 'block';
-  readMarker.style.top = `${yRatio * entry.container.clientHeight}px`;
-}
-function hideMarker(){
-  readMarker.style.display = 'none';
-}
-
-function setCurrentPage(num){
-  currentVisiblePage = num;
-  readEls.status.textContent = pdfPageCount ? `Page ${num} of ${pdfPageCount}` : `Page ${num}`;
-}
-
-async function openPart(part, initialPage, markerYRatio){
-  currentPart = part;
-  partLoading = true;
-  readEls.status.textContent = 'Loading pages…';
-  document.querySelectorAll('.part-btn').forEach(b => b.classList.toggle('active', Number(b.dataset.part) === part));
-  if(pageObserver) pageObserver.disconnect();
-  readEls.scroll.querySelectorAll('.read-page').forEach(n => n.remove());
-  pageEntries = [];
-  hideMarker();
-  readEls.loading.classList.remove('hidden');
-  try{
-    pdfDoc = await getPdfDoc(part);
-    pdfPageCount = pdfDoc.numPages;
-    const firstPage = await pdfDoc.getPage(1);
-    const baseViewport = firstPage.getViewport({ scale: 1 });
-    const aspect = baseViewport.height / baseViewport.width;
-    buildPageEntries(pdfPageCount, aspect);
-    readEls.loading.classList.add('hidden');
-    const queuedResume = pendingResume && pendingResume.part === part ? pendingResume : null;
-    pendingResume = null;
-    const target = Math.min(Math.max(1, initialPage || queuedResume?.page || 1), pdfPageCount);
-    setCurrentPage(target);
-    scrollToPage(target, typeof markerYRatio === 'number' ? markerYRatio : queuedResume?.yRatio, 'auto');
-  } catch(err){
-    console.error('Failed to load PDF part', part, err);
-    readEls.loading.textContent = 'Could not load this part.';
-  } finally {
-    partLoading = false;
-  }
-}
-
-function buildPageEntries(count, aspect){
-  const frag = document.createDocumentFragment();
-  const width = readEls.scroll.clientWidth || 600;
-  for(let i = 1; i <= count; i++){
-    const container = document.createElement('div');
-    container.className = 'read-page';
-    container.dataset.page = String(i);
-    container.style.minHeight = `${Math.round(width * aspect)}px`;
-    const canvas = document.createElement('canvas');
-    container.appendChild(canvas);
-    frag.appendChild(container);
-    pageEntries.push({ container, canvas, rendered:false, rendering:false, pageNum:i });
-  }
-  readEls.scroll.appendChild(frag);
-
-  pageEntries.forEach(entry => {
-    entry.container.addEventListener('click', (e) => {
-      const rect = entry.container.getBoundingClientRect();
-      const yRatio = Math.min(1, Math.max(0, (e.clientY - rect.top) / rect.height));
-      saveLastRead({ part: currentPart, page: entry.pageNum, yRatio, ts: Date.now() });
-      placeMarker(entry.pageNum, yRatio);
-    });
-  });
-
-  pageObserver = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      const pageNum = Number(e.target.dataset.page);
-      if(e.isIntersecting){
-        renderPageCanvas(pageNum);
-        if(e.intersectionRatio > 0.5) setCurrentPage(pageNum);
-      }
-    });
-  }, { root: readEls.scroll, rootMargin: '800px 0px', threshold: [0, 0.5] });
-  pageEntries.forEach(entry => pageObserver.observe(entry.container));
-
-  const last = loadLastRead();
-  if(last && last.part === currentPart){
-    placeMarker(last.page, last.yRatio);
-  }
-}
-
-function renderPageCanvas(pageNum){
-  const entry = pageEntries[pageNum - 1];
-  if(!entry || entry.rendered || entry.rendering) return;
-  entry.rendering = true;
-  pdfDoc.getPage(pageNum).then(page => {
-    const containerWidth = readEls.scroll.clientWidth || 600;
-    const baseViewport = page.getViewport({ scale: 1 });
-    const scale = (containerWidth / baseViewport.width) * PDF_ZOOM;
-    const viewport = page.getViewport({ scale });
-    const ctx = entry.canvas.getContext('2d');
-    const deviceScale = window.devicePixelRatio || 1;
-    const outputScale = Math.min(Math.max(deviceScale, 2), 3);
-    entry.canvas.width = Math.floor(viewport.width * outputScale);
-    entry.canvas.height = Math.floor(viewport.height * outputScale);
-    entry.canvas.style.width = `${viewport.width}px`;
-    entry.canvas.style.height = `${viewport.height}px`;
-    return page.render({
-      canvasContext: ctx,
-      viewport,
-      transform: outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null,
-    }).promise.then(() => {
-      entry.rendered = true;
-      entry.rendering = false;
-      entry.container.style.minHeight = '';
-      if(readMarker.parentElement === entry.container){
-        const last = loadLastRead();
-        if(last && last.part === currentPart && last.page === pageNum){
-          readMarker.style.top = `${last.yRatio * entry.container.clientHeight}px`;
-        }
-      }
-    });
-  }).catch(err => {
-    entry.rendering = false;
-    console.error('Failed to render page', pageNum, err);
-  });
-}
-
-function scrollToPage(num, yRatio, behavior){
-  const entry = pageEntries[num - 1];
-  if(!entry) return;
-  renderPageCanvas(num);
-  const extra = typeof yRatio === 'number' ? yRatio * entry.container.clientHeight : 0;
-  readEls.scroll.scrollTo({ top: entry.container.offsetTop + extra - 24, behavior: behavior || 'smooth' });
-  setCurrentPage(num);
-  if(typeof yRatio === 'number') placeMarker(num, yRatio);
-}
-
-function goToPage(delta){
-  if(!pdfDoc) return;
-  const target = Math.min(pdfPageCount, Math.max(1, currentVisiblePage + delta));
-  if(target !== currentVisiblePage) scrollToPage(target);
-}
-readEls.parts.querySelectorAll('.part-btn').forEach(btn => {
-  btn.addEventListener('click', () => openPart(Number(btn.dataset.part)));
-});
-
-function goToPartPosition(position){
-  if(!pdfDoc || !pdfPageCount) return;
-  const page = position === 'beginning'
-    ? 1
-    : position === 'middle'
-      ? Math.ceil(pdfPageCount / 2)
-      : pdfPageCount;
-  scrollToPage(page);
-}
-
-readEls.beginningBtn.addEventListener('click', () => goToPartPosition('beginning'));
-readEls.middleBtn.addEventListener('click', () => goToPartPosition('middle'));
-readEls.endBtn.addEventListener('click', () => goToPartPosition('end'));
-
-readEls.resumeBtn.addEventListener('click', () => {
-  const last = loadLastRead();
-  if(!last) return;
-  if(last.part === currentPart && pageEntries.length){
-    scrollToPage(last.page, last.yRatio);
-  } else if(partLoading && last.part === currentPart){
-    pendingResume = last;
-  } else {
-    openPart(last.part, last.page, last.yRatio);
-  }
-});
-
-window.addEventListener('resize', () => {
-  if(currentMode === 'read' && pdfDoc){
-    pageEntries.forEach(entry => { entry.rendered = false; });
-    renderPageCanvas(currentVisiblePage);
-  }
-});
-
-updateResumeButton();
 
 /* ============ data + init ============ */
 async function loadWords(){
@@ -865,6 +569,7 @@ async function init(){
     els.subhead.textContent = `the ${FREQUENT_WORDS.length} most frequent words of the Qur'an`;
     buildDatalist();
     renderCard();
+    if(window.location.hash === '#resume') window.location.replace('read.html#resume');
   } catch(err){
     console.error(err);
     els.learnWrap.style.display = 'none';
