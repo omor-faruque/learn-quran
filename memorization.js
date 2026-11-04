@@ -18,7 +18,8 @@ function renderMemoryVerse(){
   });
   const reference = document.getElementById('current-verse-reference');
   reference.textContent = typeof verse.reference === 'string' ? verse.reference.trim() : '';
-  reference.hidden = !reference.textContent;
+  reference.href = typeof verse.link === 'string' ? verse.link.trim() : '';
+  reference.hidden = !reference.textContent || !reference.href;
   document.getElementById('memory-verse-position').textContent = `${currentVerseIndex + 1} / ${memoryVerses.length}`;
   previousVerseButton.disabled = currentVerseIndex === 0;
   nextVerseButton.disabled = currentVerseIndex === memoryVerses.length - 1;
