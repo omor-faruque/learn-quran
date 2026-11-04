@@ -178,6 +178,7 @@ body.memorization-page{
 .current-verse-heading{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px 20px; font-family:'DM Sans', sans-serif; }
 .current-verse-heading h2{ margin:0; font-size:16px; font-weight:600; }
 .current-verse-heading p{ margin:0; font-size:13px; color:#555; }
+#current-verse-reference, #current-verse-reference:visited, #current-verse-reference:hover, #current-verse-reference:active{ color:#000; }
 .verse-nav{ display:flex; align-items:center; gap:8px; }
 .verse-nav button{ display:flex; align-items:center; justify-content:center; width:36px; height:36px; padding:0; border:1px solid #ddd; border-radius:4px; background:#fff; color:#111; cursor:pointer; }
 .verse-nav button:hover:not(:disabled){ background:#f4f4f4; border-color:#111; }
