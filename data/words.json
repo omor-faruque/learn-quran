@@ -769,9 +769,9 @@
     "type": "Particle",
     "image": "050-'inna.jpg",
     "example": {
-      "arabic": "إِنَّ اللهَ مَعَنَا",
-      "pronunciation": "Innal-laha ma'anaa",
-      "meaning": "Indeed, Allah is with us"
+      "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+      "pronunciation": "Innaa anzalnaahu fee laylatil-qadr",
+      "meaning": "Indeed, We sent it down on the Night of Decree"
     },
     "difficult": false
   },
@@ -779,7 +779,7 @@
     "word_id": 51,
     "arabic": "اِنَّمَا",
     "transliteration": "'innamaa",
-    "translation": "only",
+    "translation": "only / indeed only",
     "occurrences": 145,
     "type": "Particle",
     "image": "051-'innamaa.jpg",
@@ -830,9 +830,9 @@
     "type": "Particle",
     "image": "054-fee.jpg",
     "example": {
-      "arabic": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
-      "pronunciation": "Alladhee yuwaswisu fee sudoorin-naas",
-      "meaning": "He whispers into the hearts of humankind"
+      "arabic": "هُوَ فِي الْبَيْت",
+      "pronunciation": "Huwa fil-bayt",
+      "meaning": "He is in the house"
     },
     "difficult": false
   },
