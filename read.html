@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read Qur'an | Miftah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="memorization-page reader-page">
+<div class="guide-shell">
+  <header class="app-header">
+    <a class="app-brand" href="index.html">Miftah</a>
+    <nav class="app-nav" aria-label="Main navigation">
+      <a href="index.html">Vocabulary</a>
+      <a href="read.html" aria-current="page">Read Qur'an</a>
+      <a href="memorization.html">Memorization &amp; Mind</a>
+    </nav>
+  </header>
+  <main class="read-wrap" id="read-wrap">
+    <div class="workspace-heading">
+      <!-- <svg class="guide-icon guide-title-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14m-9-3V3h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v15h-5a4 4 0 0 0-4 3 4 4 0 0 0-4-3Z"/></svg> -->
+      <!-- <p class="guide-eyebrow">Read &amp; Reflect</p> -->
+      <h1>Read Qur'an</h1>
+    </div>
+    <div class="reader-toolbar">
+      <div class="read-parts" id="read-parts" role="group" aria-label="Quran part">
+        <button class="part-btn active" data-part="1" type="button" aria-pressed="true">Part 1</button>
+        <button class="part-btn" data-part="2" type="button" aria-pressed="false">Part 2</button>
+        <button class="part-btn" data-part="3" type="button" aria-pressed="false">Part 3</button>
+        <button class="part-btn" data-part="4" type="button" aria-pressed="false">Part 4</button>
+        <button class="part-btn" data-part="5" type="button" aria-pressed="false">Part 5</button>
+      </div>
+      <div class="read-status" id="read-status" role="status">Loading pages...</div>
+    </div>
+    <div class="read-scroll" id="read-scroll" tabindex="0" role="region" aria-label="Quran pages">
+      <div class="read-loading" id="read-loading" role="status">Loading page...</div>
+    </div>
+    <nav class="read-nav" aria-label="Reading position">
+      <button class="nav-btn" id="read-beginning" type="button">Beginning</button>
+      <button class="nav-btn" id="read-middle" type="button">Middle</button>
+      <button class="nav-btn" id="read-end" type="button">End</button>
+      <button class="nav-btn" id="resume-btn" type="button" disabled>Resume last read</button>
+    </nav>
+  </main>
+</div>
+<button class="fab last-read-btn" id="btn-last-read" type="button" aria-label="Resume last read position" title="Return to last read position">
+  <svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 2.64-6.36L3 8m0-5v5h5m4-1v5l3 2"/></svg>
+</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="reader.js"></script>
+</body>
+</html>
