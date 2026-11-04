@@ -6,7 +6,7 @@
 <title>Memorization &amp; Mind | Miftah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -32,7 +32,28 @@
 		</nav>
 	</header>
 <main class="guide-page">
-	<div class="workspace-heading">
+	
+	<section class="current-verse" aria-labelledby="current-verse-title" aria-busy="true">
+		<div class="current-verse-heading">
+			<h2 id="current-verse-title">Currently Memorizing</h2>
+			<p id="current-verse-reference" hidden></p>
+			<div class="verse-nav" role="group" aria-label="Verse navigation">
+				<button id="memory-verse-prev" type="button" aria-label="Previous verse" title="Previous verse" disabled><svg class="guide-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+				<span id="memory-verse-position" role="status" aria-atomic="true">0 / 0</span>
+				<button class="verse-next" id="memory-verse-next" type="button" aria-label="Next verse" title="Next verse" disabled><svg class="guide-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+			</div>
+		</div>
+		<p id="current-verse-status" role="status">Loading verse...</p>
+		<div id="current-verse-content" hidden>
+			<p class="current-verse-arabic" id="current-verse-arabic" lang="ar" dir="rtl"></p>
+			<dl class="current-verse-meaning">
+				<div class="verse-pronunciation"><dt>Pronunciation</dt><dd id="current-verse-pronunciation"></dd></div>
+				<div><dt>English Translation</dt><dd id="current-verse-translation" lang="en"></dd></div>
+			</dl>
+		</div>
+	</section>
+
+    <div class="workspace-heading">
 		<p class="guide-eyebrow">Memorization &amp; Mind</p>
 		<h1>The Most Effective Multi-Sensory Framework</h1>
 	</div>
@@ -82,5 +103,6 @@
 	</div>
 </main>
 </div>
+<script src="memorization.js"></script>
 </body>
 </html>
