@@ -6,46 +6,52 @@
 <title>Most Frequent Words of the Qur'an</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=DM+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="memorization-page vocabulary-page">
 
-<div class="wrap">
+<div class="guide-shell">
 
-  <div class="mobile-menu-bar">
-    <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
-      <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
-      <span>Menu</span>
-    </button>
-  </div>
+  <header class="app-header">
+    <a class="app-brand" href="index.html">Miftah</a>
+    <nav class="app-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Vocabulary</a>
+      <a href="read.html">Read Qur'an</a>
+      <a href="memorization.html">Memorization &amp; Mind</a>
+    </nav>
+  </header>
 
+  <main class="vocabulary-workspace">
   <div class="mobile-menu" id="mobile-menu">
-    <header>
+    <div class="workspace-heading">
+    
       <h1>Learn Quranic Vocabulary</h1>
       <p class="subhead" id="subhead">the key to the most frequent words of the Qur'an</p>
-    </header>
+    </div>
 
-    <nav class="primary-nav">
+    <nav class="primary-nav" aria-label="Study mode">
       <div class="mode-toggle">
         <button class="mode-btn active" id="btn-learn" type="button" aria-label="Learn mode">Learn</button>
         <button class="mode-btn" id="btn-test" type="button" aria-label="Test yourself mode">Test Yourself</button>
-        <button class="mode-btn" id="btn-read" type="button" aria-label="Read Qur'an mode">Read Qur'an</button>
       </div>
     </nav>
 
     <div class="toolbar" id="toolbar">
       <div class="toolbar-top">
-        <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" autocomplete="off">
+        <input class="search-box" id="search-box" type="text" list="word-list" placeholder="Jump to a word…" aria-label="Jump to a word" autocomplete="off">
+        <datalist id="word-list"></datalist>
+      </div>
+      <details class="study-options">
+        <summary>Study options</summary>
         <label class="sort-control" for="sort-select">
+          <span>Sort words</span>
           <select id="sort-select">
             <option value="default">Default order</option>
             <option value="occurrences">Most occurrences first</option>
           </select>
         </label>
-        <datalist id="word-list"></datalist>
-      </div>
       <div class="filter-group">
         <span class="filter-label">Filter by type:</span>
         <button class="filter-pill active" data-type="All" type="button">All</button>
@@ -54,15 +60,12 @@
         <button class="filter-pill" data-type="Particle" type="button">Particle</button>
         <button class="filter-pill" data-type="Difficult" id="difficult-pill" type="button">★ Difficult</button>
       </div>
+      </details>
     </div>
   </div>
 
   <div class="stage">
     <div class="frame">
-      <div class="corner tl"><svg viewBox="0 0 34 34"><path d="M2 32 L2 10 A8 8 0 0 1 10 2 L32 2" fill="none" stroke="#c9a227" stroke-width="1.2"/><circle cx="10" cy="10" r="2.2" fill="#c9a227"/></svg></div>
-      <div class="corner tr"><svg viewBox="0 0 34 34"><path d="M2 32 L2 10 A8 8 0 0 1 10 2 L32 2" fill="none" stroke="#c9a227" stroke-width="1.2"/><circle cx="10" cy="10" r="2.2" fill="#c9a227"/></svg></div>
-      <div class="corner bl"><svg viewBox="0 0 34 34"><path d="M2 32 L2 10 A8 8 0 0 1 10 2 L32 2" fill="none" stroke="#c9a227" stroke-width="1.2"/><circle cx="10" cy="10" r="2.2" fill="#c9a227"/></svg></div>
-      <div class="corner br"><svg viewBox="0 0 34 34"><path d="M2 32 L2 10 A8 8 0 0 1 10 2 L32 2" fill="none" stroke="#c9a227" stroke-width="1.2"/><circle cx="10" cy="10" r="2.2" fill="#c9a227"/></svg></div>
 
       <div class="card-inner">
 
@@ -129,35 +132,6 @@
 
         <div class="empty-state" id="empty-state" style="display:none;">No words match this filter yet.</div>
 
-        <!-- READ QURAN MODE -->
-        <div class="read-wrap" id="read-wrap" style="display:none;">
-          <div class="read-heading">
-            <div>
-              <div class="read-kicker">Qur'an reader</div>
-              <h2 class="read-title">Read and reflect</h2>
-            </div>
-            <div class="read-status" id="read-status">Page 1</div>
-          </div>
-          <div class="read-parts" id="read-parts">
-            <button class="part-btn active" data-part="1" type="button">Part 1</button>
-            <button class="part-btn" data-part="2" type="button">Part 2</button>
-            <button class="part-btn" data-part="3" type="button">Part 3</button>
-            <button class="part-btn" data-part="4" type="button">Part 4</button>
-            <button class="part-btn" data-part="5" type="button">Part 5</button>
-          </div>
-          <div class="read-scroll" id="read-scroll">
-            <div class="read-loading" id="read-loading">Loading page…</div>
-          </div>
-          <div class="read-nav">
-            <span class="read-nav-label">Jump to</span>
-            <button class="nav-btn ghost" id="read-beginning" type="button">Beginning</button>
-            <button class="nav-btn ghost" id="read-middle" type="button">Middle</button>
-            <button class="nav-btn ghost" id="read-end" type="button">End</button>
-            <button class="nav-btn ghost" id="resume-btn" type="button" disabled>↩ Resume last read</button>
-          </div>
-          <p class="read-hint">Tap anywhere on a page to save it as your last read spot. Scroll to keep reading.</p>
-        </div>
-
       </div>
     </div>
 
@@ -195,13 +169,9 @@
 
   <footer>ﷺ &nbsp;grow this list as your memorization grows&nbsp; ﷺ</footer>
 
-  <button class="fab last-read-btn" id="btn-last-read" type="button" style="display:none;" aria-label="Resume last read position" title="Return to last read position">
-    <span class="fab-icon">↩</span>
-  </button>
-
+  </main>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
