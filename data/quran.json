@@ -18,6 +18,118 @@
         "name": "Al-Alaq",
         "verses": [
             {
+                "reference": "Al-Alaq 96:1",
+                "arabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+                "pronunciation": "Iqra bismi rab bikal lazee khalaq",
+                "translation": "Recite, ˹O Prophet,˺ in the name of your Lord who created.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-1/",
+                "verse": 1
+            },
+            {
+                "reference": "Al-Alaq 96:2",
+                "arabic": "خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ",
+                "pronunciation": "Khalaqal insana min 'alaq",
+                "translation": "He created man from a clinging substance.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-2/",
+                "verse": 2
+            },
+            {
+                "reference": "Al-Alaq 96:3",
+                "arabic": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+                "pronunciation": "Iqra wa rab bukal akram",
+                "translation": "Recite, and your Lord is the Most Generous.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-3/",
+                "verse": 3
+            },
+            {
+                "reference": "Al-Alaq 96:4",
+                "arabic": "ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ",
+                "pronunciation": "Allazee 'allama bil qalam",
+                "translation": "Who taught by the pen.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-4/",
+                "verse": 4
+            },
+            {
+                "reference": "Al-Alaq 96:5",
+                "arabic": "عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
+                "pronunciation": "'Al lamal insaana ma lam y'alam",
+                "translation": "Taught man that which he knew not.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-5/",
+                "verse": 5
+            },
+            {
+                "reference": "Al-Alaq 96:6",
+                "arabic": "كَلَّآ إِنَّ ٱلْإِنسَـٰنَ لَيَطْغَىٰٓ",
+                "pronunciation": "Kallaa innal insaana layatghaa",
+                "translation": "No! [But] indeed, man transgresses",
+                "link": "https://myislam.org/surah-al-alaq/ayat-6/",
+                "verse": 6
+            },
+            {
+                "reference": "Al-Alaq 96:7",
+                "arabic": "أَن رَّءَاهُ ٱسْتَغْنَىٰٓ",
+                "pronunciation": "Ar-ra aahus taghnaa",
+                "translation": "Because he sees himself self-sufficient.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-7/",
+                "verse": 7
+            },
+            {
+                "reference": "Al-Alaq 96:8",
+                "arabic": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ",
+                "pronunciation": "Innna ilaa rabbikar ruj'aa",
+                "translation": "Indeed, to your Lord is the return.",
+                "link": "https://myislam.org/surah-al-alaq/ayat-8/",
+                "verse": 8
+            },
+            {
+                "reference": "Al-Alaq 96:9",
+                "arabic": "أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ",
+                "pronunciation": "Ara-aital lazee yanhaa",
+                "translation": "Have you seen the one who forbids",
+                "link": "https://myislam.org/surah-al-alaq/ayat-9/",
+                "verse": 9
+            },
+            {
+                "reference": "Al-Alaq 96:10",
+                "arabic": "عَبْدًا إِذَا صَلَّىٰٓ",
+                "pronunciation": "'Abdan iza sallaa",
+                "translation": "A servant when he prays",
+                "link": "https://myislam.org/surah-al-alaq/ayat-10/",
+                "verse": 10
+            },
+            {
+                "reference": "Al-Alaq 96:11",
+                "arabic": "أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ",
+                "pronunciation": "Ara-aita in kana 'alal hudaa",
+                "translation": "Have you seen if he is upon guidance?",
+                "link": "https://myislam.org/surah-al-alaq/ayat-11/",
+                "verse": 11
+            },
+            {
+                "reference": "Al-Alaq 96:12",
+                "arabic": "أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ",
+                "pronunciation": "Aw amara bit-taqwaa",
+                "translation": "Or enjoins righteousness?",
+                "link": "https://myislam.org/surah-al-alaq/ayat-12/",
+                "verse": 12
+            },
+            {
+                "reference": "Al-Alaq 96:13",
+                "arabic": "أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ",
+                "pronunciation": "Ara-aita in kaz zaba wa ta walla",
+                "translation": "Have you seen if he denies and turns away?",
+                "link": "https://myislam.org/surah-al-alaq/ayat-13/",
+                "verse": 13
+            },
+            {
+                "reference": "Al-Alaq 96:14",
+                "arabic": "أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ",
+                "pronunciation": "Alam y'alam bi-an nal lahaa yaraa",
+                "translation": "Does he not know that Allāh sees?",
+                "link": "https://myislam.org/surah-al-alaq/ayat-14/",
+                "verse": 14
+            },
+            {
                 "reference": "Al-Alaq 96:15",
                 "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
                 "pronunciation": "Kalla la illam yantahi la nasfa'am bin nasiyah",
